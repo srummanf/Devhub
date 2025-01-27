@@ -1,7 +1,12 @@
+import { AnimatedUILibraries } from "@/components/AnimatedUILibraries";
 import { Beginner_sComp } from "@/components/Beginner_sComp";
 import { Dashboard } from "@/components/Dashboard";
+import { DesignComp } from "@/components/DesignComp";
 import Hero from "@/components/Hero";
+import { MiscComp } from "@/components/MiscComp";
 import ScrollComp from "@/components/ScrollComp";
+import { UILibraries } from "@/components/UILibraries";
+
 import Image from "next/image";
 
 export default function Home() {
@@ -11,8 +16,12 @@ export default function Home() {
 
         <Hero />
         <ScrollComp/>
-        <Dashboard/>
+        {/* <Dashboard/> */}
         <Beginner_sComp/>
+        <UILibraries/>
+        <AnimatedUILibraries/>
+        <MiscComp/>
+        <DesignComp/>
       </div>
 
     </>
