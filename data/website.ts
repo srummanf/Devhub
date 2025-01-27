@@ -8,7 +8,7 @@ export const websites = [
     {
       title: "React Components",
       href: "https://reactjs.org",
-      imageUrl: "https://via.placeholder.com/300",
+      imageUrl: "/React.png",
       description: "Reusable components for building interactive UIs.",
     },
     {

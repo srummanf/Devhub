@@ -1,3 +1,4 @@
+import { Beginner_sComp } from "@/components/Beginner_sComp";
 import { Dashboard } from "@/components/Dashboard";
 import Hero from "@/components/Hero";
 import ScrollComp from "@/components/ScrollComp";
@@ -11,6 +12,7 @@ export default function Home() {
         <Hero />
         <ScrollComp/>
         <Dashboard/>
+        <Beginner_sComp/>
       </div>
 
     </>

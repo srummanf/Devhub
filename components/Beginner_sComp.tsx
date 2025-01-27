@@ -5,11 +5,14 @@ import { PinContainer } from "@/components/ui/3d-pin";
 
 import { websites } from "../data/website";
 
-export function Dashboard() {
+export function Beginner_sComp() {
   return (
 
-    <div className="container mx-auto px-4 py-8">
-      <h2 className="text-3xl font-bold text-slate-100 mb-4 ml-5">Getting started with Hackathon</h2>
+    <div className="container mx-auto px-6 py-10">
+      <h2 className="text-4xl font-extrabold text-slate-100 mb-6 ml-4 tracking-tight">Getting Started with Hackathon</h2>
+      <p className="text-lg text-slate-300 mb-6 ml-4 leading-relaxed">
+        Web development is made easier with the right set of tools. Explore resources like code editors, browser developer tools, and version control systems to streamline your workflow and enhance productivity. These tools will help you write, test, and debug your code efficiently.
+      </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
 
         {websites.map((site, index) => (
