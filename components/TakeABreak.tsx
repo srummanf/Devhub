@@ -3,19 +3,24 @@ import React from "react";
 import { Card } from "@/components/ui/Card";
 import { PinContainer } from "@/components/ui/3d-pin";
 
-import { Web3Comp_resources } from "../data/Web3Comp_resources";
+import { TakeABreak_resources } from "../data/TakeABreak_resources";
 
-export function Web3Comp() {
+export function TakeABreak() {
   return (
-
     <div className="container mx-auto px-6 py-10">
-      <h2 className="text-4xl font-extrabold text-slate-100 mb-6 ml-4 tracking-tight">Web3 Resources</h2>
+      <h2 className="text-4xl font-extrabold text-slate-100 mb-6 ml-4 tracking-tight">
+        Take a Break - Chill Zone
+      </h2>
       <p className="text-lg text-slate-300 mb-6 ml-4 leading-relaxed">
-  Dive into the world of decentralized web development with Web3 resources. Explore tools and frameworks for building decentralized applications (dApps), working with blockchain technologies, smart contracts, and integrating cryptocurrency functionalities. These resources will help you create secure, scalable, and innovative Web3 solutions.
-</p>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 gap-x-6 gap-y-12">
+        Sometimes, a little break is all you need to recharge and boost your
+        creativity. Step into the Chill Zone with fun, relaxing activities or
+        inspiration to unwind. Whether it's a short game, a moment of
+        mindfulness, or just a quick mental reset, this space offers a
+        refreshing pause before you jump back into your hackathon hustle.
+      </p>
 
-        {Web3Comp_resources.map((site, index) => (
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 gap-x-6 gap-y-12">
+        {TakeABreak_resources.map((site, index) => (
           <Card
             key={index}
             title={site.title}

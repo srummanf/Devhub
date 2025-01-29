@@ -1,39 +1,38 @@
 export const AnimatedUILibraries_resources = [
-    {
-      title: "Motion",
-      href: "https://motion.dev/",
-      imageUrl: "/Motion.png", // Replace with actual image URL
-      description: "Customizable Tailwind CSS and Framer Motion Components.",
-    },
-    {
-      title: "Motion Primitive",
-      href: "https://motion-primitives.com/",
-      imageUrl: "/motion_prim.png",
-      description: "Reusable components for building interactive UIs.",
-    },
-    {
-      title: "Animata",
-      href: "https://animata.design/",
-      imageUrl: "/Animata.png",
-      description: "Documentation for Next.js, the React framework.",
-    },
-    {
-      title: "AceternityUI",
-      href: "https://ui.aceternity.com/",
-      imageUrl: "/aceternity.png",
-      description: "Animation library for React.",
-    },
-    {
-      title: "Lukacho UI",
-      href: "https://ui.lukacho.com/components",
-      imageUrl: "/Lukacho.png",
-      description: "Animation library for React.",
-    },
-    {
-      title: "Animation by IBleck",
-      href: "https://animation.ibelick.com/",
-      imageUrl: "/animibleck.png",
-      description: "Animation library for React.",
-    },
-  ];
-  
+  {
+    title: "Motion",
+    href: "https://motion.dev/",
+    imageUrl: "/Motion.png",
+    description: "A powerful animation library for React, built on Framer Motion, offering seamless integration with Tailwind CSS.",
+  },
+  {
+    title: "Motion Primitive",
+    href: "https://motion-primitives.com/",
+    imageUrl: "/motion_prim.png",
+    description: "A collection of reusable motion components designed for building smooth and interactive UIs effortlessly.",
+  },
+  {
+    title: "Animata",
+    href: "https://animata.design/",
+    imageUrl: "/Animata.png",
+    description: "A curated set of prebuilt animations and design tools to create stunning motion experiences.",
+  },
+  {
+    title: "AceternityUI",
+    href: "https://ui.aceternity.com/",
+    imageUrl: "/aceternity.png",
+    description: "A modern UI library with beautiful, animated components powered by Framer Motion.",
+  },
+  {
+    title: "Lukacho UI",
+    href: "https://ui.lukacho.com/components",
+    imageUrl: "/Lukacho.png",
+    description: "An elegant animation-focused component library, perfect for creating fluid and engaging user experiences.",
+  },
+  {
+    title: "Animation by IBleck",
+    href: "https://animation.ibelick.com/",
+    imageUrl: "/animibleck.png",
+    description: "A feature-rich animation framework for React, simplifying complex motion effects with ease.",
+  },
+];

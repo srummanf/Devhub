@@ -9,10 +9,10 @@ export function Beginner_sComp() {
   return (
 
     <div className="container mx-auto px-6 py-10">
-      <h2 className="text-4xl font-extrabold text-slate-100 mb-6 ml-4 tracking-tight">Getting Started with Hackathon</h2>
+      <h2 className="text-4xl font-extrabold text-slate-100 mb-6 ml-4 tracking-tight">Getting Started with Hackathon - Beginner;s Resources</h2>
       <p className="text-lg text-slate-300 mb-6 ml-4 leading-relaxed">
-        Web development is made easier with the right set of tools. Explore resources like code editors, browser developer tools, and version control systems to streamline your workflow and enhance productivity. These tools will help you write, test, and debug your code efficiently.
-      </p>
+  Kickstart your hackathon journey with beginner-friendly resources designed to guide you through the essentials of web development. From understanding the fundamentals of HTML, CSS, and JavaScript to mastering version control and collaborative coding, these resources will help you build a strong foundation and boost your confidence for your first hackathon.
+</p>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 gap-x-6 gap-y-12">
 
         {beginner_s_resources.map((site, index) => (
