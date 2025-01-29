@@ -32,19 +32,31 @@ export const DesignComp_resources = [
     {
       title: "Coolors",
       href: "https://coolors.co/",
-      imageUrl: "/HeroUI.png",
+      imageUrl: "/coolors.png",
       description: "Animation library for React.",
     },
     {
-      title: "IBleck UI",
-      href: "https://ui.ibelick.com/",
-      imageUrl: "/ibleck.png",
+      title: "Khroma",
+      href: "https://www.khroma.co/train",
+      imageUrl: "/khroma.png",
       description: "Animation library for React.",
     },
     {
-      title: "Material UI",
-      href: "https://mui.com/material-ui/",
-      imageUrl: "/materialui.png",
+      title: "Realtime Colors",
+      href: "https://www.realtimecolors.com/?colors=050315-fbfbfe-2f27ce-dedcff-433bff&fonts=Inter-Inter",
+      imageUrl: "/realtimecolors.png",
+      description: "Animation library for React.",
+    },
+    {
+      title: "Dribble",
+      href: "https://dribbble.com/",
+      imageUrl: "/dribbble.png",
+      description: "Animation library for React.",
+    },
+    {
+      title: "Laws of UX",
+      href: "https://lawsofux.com/",
+      imageUrl: "/LawsofUX.png",
       description: "Animation library for React.",
     },
   ];

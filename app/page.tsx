@@ -6,6 +6,7 @@ import Hero from "@/components/Hero";
 import { MiscComp } from "@/components/MiscComp";
 import ScrollComp from "@/components/ScrollComp";
 import { UILibraries } from "@/components/UILibraries";
+import { Web3Comp } from "@/components/Web3Comp";
 
 import Image from "next/image";
 
@@ -18,6 +19,7 @@ export default function Home() {
         <ScrollComp/>
         {/* <Dashboard/> */}
         <Beginner_sComp/>
+        <Web3Comp/>
         <UILibraries/>
         <AnimatedUILibraries/>
         <MiscComp/>
