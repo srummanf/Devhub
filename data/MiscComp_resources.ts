@@ -1,5 +1,23 @@
 export const MiscComp_resources = [
   {
+    title: "v0",
+    href: "https://v0.dev/",
+    imageUrl: "/v0.png",
+    description: "v0 is your always-on pair-programmer. A generative chat interface with in-depth knowledge on modern web technologies. ",
+  },
+  {
+    title: "Bolt",
+    href: "https://bolt.new/",
+    imageUrl: "/bolt.png",
+    description: "Bolt is a tool for prototyping and building web applications with a focus on speed and simplicity.",
+  },
+  {
+    title: "Roadmap.sh",
+    href: "https://roadmap.sh/",
+    imageUrl: "/roadmapsh.png",
+    description: "Roadmap.sh is a community effort to create roadmaps, guides and other educational content to help guide developers in picking up a path and guide their learnings.",
+  },
+  {
     title: "Tremor",
     href: "https://tremor.so/",
     imageUrl: "/tremor.png",

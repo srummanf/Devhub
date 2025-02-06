@@ -12,10 +12,22 @@ export const DesignComp_resources = [
     description: "A collaborative interface design tool for creating wireframes, prototypes, and UI designs.",
   },
   {
+    title: "Spline",
+    href: "https://spline.design/",
+    imageUrl: "/spline.png",
+    description: "A 3D design tool for creating 3D web experiences without code.",
+  },
+  {
+    title: "DesignCourse",
+    href: "https://youtu.be/o1nCmiW6auE?si=z48EdOo9-DkqR9-w",
+    imageUrl: "/dc.png",
+    description: "A YouTube channel that offers design tutorials, tips, and resources for UI/UX designers.",
+  },
+  {
     title: "Fluent UI",
     href: "https://developer.microsoft.com/en-us/fluentui#/",
     imageUrl: "/fluentui.png",
-    description: "Microsoft’s design system for creating accessible and modern web applications.",
+    description: "Microsoft's design system for creating accessible and modern web applications.",
   },
   {
     title: "Typography",
