@@ -35,4 +35,11 @@ export const AnimatedUILibraries_resources = [
     imageUrl: "/animibleck.png",
     description: "A feature-rich animation framework for React, simplifying complex motion effects with ease.",
   },
+  {
+    title: "Magic UI",
+    href: "https://magicui.design/",
+    imageUrl: "/magicui.png",
+    description: "A collection of animated components and design resources to create delightful user interfaces.",
+  },
+  
 ];

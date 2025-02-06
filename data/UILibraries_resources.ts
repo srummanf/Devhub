@@ -59,4 +59,10 @@ export const UILibraries_resources = [
     imageUrl: "/origin.png",
     description: "A powerful UI library designed for performance and seamless integration.",
   },
+  {
+    title: "Float UI",
+    href: "https://floatui.com/",
+    imageUrl: "/floatui.png",
+    description: "A collection of modern and responsive UI components for React applications.",
+  },
 ];

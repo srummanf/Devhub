@@ -41,4 +41,10 @@ export const MiscComp_resources = [
     imageUrl: "/ibleck.png",
     description: "A UI component library for creating stunning, interactive web experiences.",
   },
+  {
+    title: "UIVerse",
+    href: "https://uiverse.io/",
+    imageUrl: "/uiverse.png",
+    description: "The Largest Library of Open-Source UI Community-built library of UI elements. Copy as HTML/CSS, Tailwind, React and Figma.",
+  },
 ];
