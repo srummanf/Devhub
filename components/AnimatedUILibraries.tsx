@@ -8,7 +8,7 @@ import { AnimatedUILibraries_resources } from "../data/AnimatedUILibraries_resou
 export function AnimatedUILibraries() {
   return (
 
-    <div className="container mx-auto px-6 py-10">
+    <div className="container mx-auto px-6 py-10 bg-[#030303]">
       <h2 className="text-4xl font-extrabold text-slate-100 mb-6 ml-4 tracking-tight">Animated UI Libraries</h2>
       <p className="text-lg text-slate-300 mb-6 ml-4 leading-relaxed">
   Enhance your web development projects with animation libraries that bring interactive and dynamic elements to your UI. Explore libraries designed to work seamlessly with frameworks like React, helping you create smooth transitions, animations, and engaging user experiences.

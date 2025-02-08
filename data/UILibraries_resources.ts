@@ -71,4 +71,10 @@ export const UILibraries_resources = [
     imageUrl: "/floatui.png",
     description: "A collection of modern and responsive UI components for React applications.",
   },
+  {
+    title: "Kokonut UI",
+    href: "https://kokonutui.com/",
+    imageUrl: "/koko.png",
+    description: "A UI library that combines simplicity and elegance for a delightful user experience.",
+  },
 ];

@@ -8,7 +8,7 @@ import { DesignComp_resources } from "../data/DesignComp_resources";
 export function DesignComp() {
   return (
 
-    <div className="container mx-auto px-6 py-10">
+    <div className="container mx-auto px-6 py-10 bg-[#030303]">
       <h2 className="text-4xl font-extrabold text-slate-100 mb-6 ml-4 tracking-tight">Design Resources</h2>
       <p className="text-lg text-slate-300 mb-6 ml-4 leading-relaxed">
   Design plays a crucial role in creating intuitive, visually appealing user interfaces. Explore resources to enhance your design skills, including UI/UX principles, tools for prototyping, wireframing, and libraries that help implement clean, responsive designs. These resources will guide you in crafting user-centric experiences for your web projects.

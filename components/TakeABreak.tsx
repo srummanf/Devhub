@@ -7,7 +7,7 @@ import { TakeABreak_resources } from "../data/TakeABreak_resources";
 
 export function TakeABreak() {
   return (
-    <div className="container mx-auto px-6 py-10">
+    <div className="container mx-auto px-6 py-10 bg-[#030303]">
       <h2 className="text-4xl font-extrabold text-slate-100 mb-6 ml-4 tracking-tight">
         Take a Break - Chill Zone
       </h2>

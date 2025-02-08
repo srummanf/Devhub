@@ -8,7 +8,7 @@ import { beginner_s_resources } from "../data/beginner_s_resources";
 export function Beginner_sComp() {
   return (
 
-    <div className="container mx-auto px-6 py-10">
+    <div className="container mx-auto px-6 py-10 bg-[#030303]">
       <h2 className="text-4xl font-extrabold text-slate-100 mb-6 ml-4 tracking-tight">Getting Started with Hackathon - Beginner;s Resources</h2>
       <p className="text-lg text-slate-300 mb-6 ml-4 leading-relaxed">
   Kickstart your hackathon journey with beginner-friendly resources designed to guide you through the essentials of web development. From understanding the fundamentals of HTML, CSS, and JavaScript to mastering version control and collaborative coding, these resources will help you build a strong foundation and boost your confidence for your first hackathon.

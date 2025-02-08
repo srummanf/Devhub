@@ -8,7 +8,7 @@ import { Web3Comp_resources } from "../data/Web3Comp_resources";
 export function Web3Comp() {
   return (
 
-    <div className="container mx-auto px-6 py-10">
+    <div className="container mx-auto px-6 py-10 bg-[#030303]">
       <h2 className="text-4xl font-extrabold text-slate-100 mb-6 ml-4 tracking-tight">Web3 Resources</h2>
       <p className="text-lg text-slate-300 mb-6 ml-4 leading-relaxed">
   Dive into the world of decentralized web development with Web3 resources. Explore tools and frameworks for building decentralized applications (dApps), working with blockchain technologies, smart contracts, and integrating cryptocurrency functionalities. These resources will help you create secure, scalable, and innovative Web3 solutions.
