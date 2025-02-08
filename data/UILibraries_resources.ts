@@ -3,7 +3,13 @@ export const UILibraries_resources = [
     title: "Flowbite",
     href: "https://flowbite.com/",
     imageUrl: "/Flowbite.png",
-    description: "A comprehensive UI library built on Tailwind CSS with ready-to-use components.",
+    description: "Flowbite is an ecosystem built on top of Tailwind CSS including a component library, block sections, a Figma design system and other resources.",
+  },
+  {
+    title: "Preline",
+    href: "https://preline.co/index.html",
+    imageUrl: "/preline.png",
+    description: "Preline UI is an open-source Tailwind CSS components library for any needs. Comes with UI examples & blocks, templates, plugins, Figma design system and more.",
   },
   {
     title: "ShadCN",
@@ -15,7 +21,7 @@ export const UILibraries_resources = [
     title: "Radix UI",
     href: "https://www.radix-ui.com/",
     imageUrl: "/Radix.png",
-    description: "A collection of unstyled, accessible components for building modern web apps.",
+    description: "An open source component library optimized for fast development, easy maintenance, and accessibility. Just import and go—no configuration required.",
   },
   {
     title: "Daisy UI",
