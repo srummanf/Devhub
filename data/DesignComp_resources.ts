@@ -3,43 +3,57 @@ export const DesignComp_resources = [
     title: "Ant Design",
     href: "https://ant.design/",
     imageUrl: "/antdesign.png",
-    description: "A comprehensive React UI framework with enterprise-grade design components.",
+    description:
+      "A comprehensive React UI framework with enterprise-grade design components.",
   },
   {
     title: "Figma",
     href: "https://www.figma.com/",
     imageUrl: "/figma.png",
-    description: "A collaborative interface design tool for creating wireframes, prototypes, and UI designs.",
+    description:
+      "A collaborative interface design tool for creating wireframes, prototypes, and UI designs.",
   },
   {
     title: "Spline",
     href: "https://spline.design/",
     imageUrl: "/spline.png",
-    description: "A 3D design tool for creating 3D web experiences without code.",
+    description:
+      "A 3D design tool for creating 3D web experiences without code.",
   },
   {
     title: "DesignCourse",
     href: "https://youtu.be/o1nCmiW6auE?si=z48EdOo9-DkqR9-w",
     imageUrl: "/dc.png",
-    description: "A YouTube channel that offers design tutorials, tips, and resources for UI/UX designers.",
+    description:
+      "A YouTube channel that offers design tutorials, tips, and resources for UI/UX designers.",
+  },
+  {
+    title: "TailSpark",
+    href: "https://tailspark.co/",
+    imageUrl: "/tailspark.png",
+    description:
+      "TailSpark is a collection of Tailwind CSS components and templates that help you build beautiful websites faster.",
   },
   {
     title: "Fluent UI",
     href: "https://developer.microsoft.com/en-us/fluentui#/",
     imageUrl: "/fluentui.png",
-    description: "Microsoft's design system for creating accessible and modern web applications.",
+    description:
+      "Microsoft's design system for creating accessible and modern web applications.",
   },
   {
     title: "Typography",
     href: "https://typography.com/",
     imageUrl: "/typo.png",
-    description: "A resource for high-quality fonts and typography best practices.",
+    description:
+      "A resource for high-quality fonts and typography best practices.",
   },
   {
     title: "Colors UI",
     href: "https://colorsui.com/",
     imageUrl: "/colorsui.png",
-    description: "A collection of beautiful color palettes for UI design inspiration.",
+    description:
+      "A collection of beautiful color palettes for UI design inspiration.",
   },
   {
     title: "Coolors",
@@ -51,24 +65,28 @@ export const DesignComp_resources = [
     title: "Khroma",
     href: "https://www.khroma.co/train",
     imageUrl: "/khroma.png",
-    description: "An AI-powered tool that helps designers discover personalized color combinations.",
+    description:
+      "An AI-powered tool that helps designers discover personalized color combinations.",
   },
   {
     title: "Realtime Colors",
     href: "https://www.realtimecolors.com/?colors=050315-fbfbfe-2f27ce-dedcff-433bff&fonts=Inter-Inter",
     imageUrl: "/realtimecolors.png",
-    description: "A tool to experiment with real-time color combinations and accessibility checks.",
+    description:
+      "A tool to experiment with real-time color combinations and accessibility checks.",
   },
   {
     title: "Dribbble",
     href: "https://dribbble.com/",
     imageUrl: "/dribbble.png",
-    description: "A platform to showcase and discover creative design work from professionals worldwide.",
+    description:
+      "A platform to showcase and discover creative design work from professionals worldwide.",
   },
   {
     title: "Laws of UX",
     href: "https://lawsofux.com/",
     imageUrl: "/LawsofUX.png",
-    description: "A collection of psychological principles that help designers create better user experiences.",
+    description:
+      "A collection of psychological principles that help designers create better user experiences.",
   },
 ];
