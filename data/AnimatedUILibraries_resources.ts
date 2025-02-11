@@ -11,6 +11,7 @@ export const AnimatedUILibraries_resources = [
     imageUrl: "/motion_prim.png",
     description: "A collection of reusable motion components designed for building smooth and interactive UIs effortlessly.",
   },
+
   {
     title: "Animata",
     href: "https://animata.design/",

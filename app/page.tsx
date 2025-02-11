@@ -51,40 +51,20 @@ import ScrollComp from "@/components/ScrollComp";
 import { TakeABreak } from "@/components/TakeABreak";
 import { UILibraries } from "@/components/UILibraries";
 import { Web3Comp } from "@/components/Web3Comp";
-import CountUp from "@/components/CountUp";
 
 export default function Home() {
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    // Set a delay equal to CountUp's duration (1 second)
-    const timer = setTimeout(() => {
-      setLoading(false);
-    }, 1000);
-
-    return () => clearTimeout(timer);
-  }, []);
-
   return (
     <>
-      {loading ? (
-        <div className="flex items-center justify-center h-screen  text-white text-6xl font-medium">
-          <CountUp from={0} to={100} separator="," duration={1} className="count-up-text" />
-        </div>
-      ) : (
-        <>
-          <HeroGeometric />
-          <Beginner_sComp />
-          <Web3Comp />
-          <UILibraries />
-          <AnimatedUILibraries />
-          <MiscComp />
-          <DesignComp />
-          <TakeABreak />
-          <PromptingIsAllYouNeed />
-          <Footer />
-        </>
-      )}
+      <HeroGeometric />
+      <Beginner_sComp />
+      <Web3Comp />
+      <UILibraries />
+      <AnimatedUILibraries />
+      <MiscComp />
+      <DesignComp />
+      <TakeABreak />
+      <PromptingIsAllYouNeed />
+      <Footer />
     </>
   );
 }
