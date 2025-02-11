@@ -12,6 +12,12 @@ export const UILibraries_resources = [
     description: "Preline UI is an open-source Tailwind CSS components library for any needs. Comes with UI examples & blocks, templates, plugins, Figma design system and more.",
   },
   {
+    title: "TailSpark",
+    href: "https://tailspark.co/",
+    imageUrl: "/tailspark.png",
+    description: "TailSpark is a collection of Tailwind CSS components and templates that help you build beautiful websites faster.",
+  },
+  {
     title: "ShadCN",
     href: "https://ui.shadcn.com/",
     imageUrl: "/Shadcn.png",
