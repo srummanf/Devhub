@@ -18,6 +18,12 @@ export const beginner_s_resources = [
     description: "An interactive platform that provides hands-on coding experience with HTML, CSS, and JavaScript.",
   },
   {
+    title: "Scrimba",
+    href: "https://smoljames.com/roadmap",
+    imageUrl: "/smol.png",
+    description: "A visual roadmap with video resources that outlines the key concepts and technologies to learn for Full Stack development.",
+  },
+  {
     title: "Mamba UI",
     href: "https://mambaui.com/components/avatar",
     imageUrl: "/MambaUI.png",
