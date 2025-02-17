@@ -56,7 +56,7 @@ import { MainNav } from "@/components/MainNav";
 export default function Home() {
   return (
     <>
-      <MainNav
+      {/* <MainNav
         items={[
           "Beginner_sComp",
           "Web3Comp",
@@ -66,8 +66,9 @@ export default function Home() {
           "DesignComp",
           "TakeABreak",
         ]}
-      />
+      /> */}
       <HeroGeometric />
+      
       <Beginner_sComp />
       <Web3Comp />
       <UILibraries />
