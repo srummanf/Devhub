@@ -24,12 +24,12 @@ export function Beginner_sComp() {
       </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 gap-x-6 gap-y-12">
         {beginner_s_resources.map((site, index) => (
-          <motion.div
-          key={site.title}
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ delay: index * 0.1 }}
-        >
+        //   <motion.div
+        //   key={site.title}
+        //   initial={{ opacity: 0, y: 20 }}
+        //   whileInView={{ opacity: 1, y: 0 }}
+        //   transition={{ delay: index * 0.1 }}
+        // >
           <Card
             key={index}
             title={site.title}
@@ -37,7 +37,7 @@ export function Beginner_sComp() {
             imageUrl={site.imageUrl}
             description={site.description}
           />
-          </motion.div>
+          // </motion.div>
         ))}
         {/* <PinContainer
           title="/ui.aceternity.com"

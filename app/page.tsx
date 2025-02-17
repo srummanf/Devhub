@@ -51,10 +51,22 @@ import ScrollComp from "@/components/ScrollComp";
 import { TakeABreak } from "@/components/TakeABreak";
 import { UILibraries } from "@/components/UILibraries";
 import { Web3Comp } from "@/components/Web3Comp";
+import { MainNav } from "@/components/MainNav";
 
 export default function Home() {
   return (
     <>
+      <MainNav
+        items={[
+          "Beginner_sComp",
+          "Web3Comp",
+          "UILibraries",
+          "AnimatedUILibraries",
+          "MiscComp",
+          "DesignComp",
+          "TakeABreak",
+        ]}
+      />
       <HeroGeometric />
       <Beginner_sComp />
       <Web3Comp />
