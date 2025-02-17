@@ -42,5 +42,11 @@ export const AnimatedUILibraries_resources = [
     imageUrl: "/magicui.png",
     description: "A collection of animated components and design resources to create delightful user interfaces.",
   },
+  {
+    title: "Blogs and Tuts by Oliver Larose",
+    href: "https://blog.olivierlarose.com/tutorials/background-image-parallax",
+    imageUrl: "/larose.png",
+    description: "A series of tutorials and articles on creating highly complex and engaging animations and interactive UIs with NextJs and Framer with other animation tools.",
+  },
   
 ];

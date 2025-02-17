@@ -18,7 +18,7 @@ export const beginner_s_resources = [
     description: "An interactive platform that provides hands-on coding experience with HTML, CSS, and JavaScript.",
   },
   {
-    title: "Scrimba",
+    title: "SmolJames",
     href: "https://smoljames.com/roadmap",
     imageUrl: "/smol.png",
     description: "A visual roadmap with video resources that outlines the key concepts and technologies to learn for Full Stack development.",
@@ -46,5 +46,11 @@ export const beginner_s_resources = [
     href: "https://www.framer.com/",
     imageUrl: "/Framer.png",
     description: "A powerful design and prototyping tool for creating interactive, animated UI experiences.",
+  },
+  {
+    title: "Full Stack Open",
+    href: "https://fullstackopen.com/en/",
+    imageUrl: "/fso.png",
+    description: "Learn React, Redux, Node.js, MongoDB, GraphQL and TypeScript in one go! This course will introduce you to modern JavaScript-based web development.",
   },
 ];
