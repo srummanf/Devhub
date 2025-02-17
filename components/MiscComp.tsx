@@ -8,7 +8,7 @@ import { MiscComp_resources } from "../data/MiscComp_resources";
 export function MiscComp() {
   return (
 
-    <div className="container mx-auto px-6 py-10 bg-[#030303]">
+    <div id="MiscComp" className="container mx-auto px-6 py-10 bg-[#030303]">
       <h2 className="text-4xl font-extrabold text-slate-100 mb-6 ml-4 tracking-tight">Miscellenous UI </h2>
       <p className="text-lg text-slate-300 mb-6 ml-4 leading-relaxed">
   Discover a variety of UI resources that enhance your web development toolkit. From unique components and libraries to UI kits, these tools will help you create functional and attractive user interfaces. Whether you need ready-to-use UI elements or customizations for specific needs, this section offers diverse solutions for all your design and development challenges.
