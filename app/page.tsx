@@ -52,6 +52,7 @@ import { TakeABreak } from "@/components/TakeABreak";
 import { UILibraries } from "@/components/UILibraries";
 import { Web3Comp } from "@/components/Web3Comp";
 import { MainNav } from "@/components/MainNav";
+import { FinalDance } from "@/components/FinalDance";
 
 export default function Home() {
   return (
@@ -75,6 +76,7 @@ export default function Home() {
       <AnimatedUILibraries />
       <MiscComp />
       <DesignComp />
+      <FinalDance/>
       <TakeABreak />
       <PromptingIsAllYouNeed />
       <Footer />

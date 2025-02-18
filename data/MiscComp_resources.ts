@@ -65,4 +65,10 @@ export const MiscComp_resources = [
     imageUrl: "/uiverse.png",
     description: "The Largest Library of Open-Source UI Community-built library of UI elements. Copy as HTML/CSS, Tailwind, React and Figma.",
   },
+  {
+    title: "Codrops by Tympanus",
+    href: "https://tympanus.net/codrops/demos/",
+    imageUrl: "/codrops.png",
+    description: "A web design and development blog that publishes articles and tutorials about the latest web trends, techniques, and new possibilities.",
+  },
 ];

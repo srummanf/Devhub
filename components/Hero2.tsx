@@ -214,6 +214,7 @@ export default function HeroGeometric({
     { id: "AnimatedUILibraries", title: "Animated UI", description: "Enhance UI with animations." },
     { id: "MiscComp", title: "Miscellaneous Tools", description: "Useful tools for developers." },
     { id: "DesignComp", title: "Design Resources", description: "UI/UX tools and inspirations." },
+    { id: "FinalDance", title: "Final Dance", description: "UI/UX tools and inspirations." },
     { id: "TakeABreak", title: "Take a Break", description: "Fun & relaxing resources." },
   ]}
 />

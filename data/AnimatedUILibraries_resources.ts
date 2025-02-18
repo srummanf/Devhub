@@ -48,5 +48,10 @@ export const AnimatedUILibraries_resources = [
     imageUrl: "/larose.png",
     description: "A series of tutorials and articles on creating highly complex and engaging animations and interactive UIs with NextJs and Framer with other animation tools.",
   },
-  
+  {
+    title: "Text Animation by Chris Abdo",
+    href: "https://variantvault.chrisabdo.dev/text-variants",
+    imageUrl: "/vv.png",
+    description: "A collection of handmade, free, and ready to use text animations & variants for your next project.",
+  },
 ];

@@ -3,12 +3,12 @@ import React from "react";
 import { Card } from "@/components/ui/Card";
 import { PinContainer } from "@/components/ui/3d-pin";
 
-import { MiscComp_resources } from "../data/MiscComp_resources";
+import { FinalDance_resources } from "../data/FinalDance_resources.ts";
 
-export function MiscComp() {
+export function FinalDance() {
   return (
 
-    <div id="MiscComp" className="container mx-auto px-6 py-10 bg-[#030303]">
+    <div id="FinalDance" className="container mx-auto px-6 py-10 bg-[#030303]">
       <h2 className="text-4xl font-extrabold text-slate-100 mb-6 ml-4 tracking-tight">Miscellenous UI Kits and Tools</h2>
       <p className="text-lg text-slate-300 mb-6 ml-4 leading-relaxed">
   Discover a variety of UI resources that enhance your web development toolkit. From unique components and libraries to UI kits, these tools will help you create functional and attractive user interfaces. Whether you need ready-to-use UI elements or customizations for specific needs, this section offers diverse solutions for all your design and development challenges.
@@ -16,7 +16,7 @@ export function MiscComp() {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 gap-x-6 gap-y-12">
 
-        {MiscComp_resources.map((site, index) => (
+        {FinalDance_resources.map((site, index) => (
           <Card
             key={index}
             title={site.title}
