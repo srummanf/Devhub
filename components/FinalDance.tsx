@@ -3,7 +3,7 @@ import React from "react";
 import { Card } from "@/components/ui/Card";
 import { PinContainer } from "@/components/ui/3d-pin";
 
-import { FinalDance_resources } from "../data/FinalDance_resources.ts";
+import { FinalDance_resources } from "../data/FinalDance_resources";
 
 export function FinalDance() {
   return (
