@@ -1,12 +1,5 @@
 export const DesignComp_resources = [
   {
-    title: "Ant Design",
-    href: "https://ant.design/",
-    imageUrl: "/antdesign.png",
-    description:
-      "A comprehensive React UI framework with enterprise-grade design components.",
-  },
-  {
     title: "Figma",
     href: "https://www.figma.com/",
     imageUrl: "/figma.png",
@@ -21,11 +14,18 @@ export const DesignComp_resources = [
       "A 3D design tool for creating 3D web experiences without code.",
   },
   {
-    title: "DesignCourse",
-    href: "https://youtu.be/o1nCmiW6auE?si=z48EdOo9-DkqR9-w",
-    imageUrl: "/dc.png",
+    title: "Framer",
+    href: "https://www.framer.com/",
+    imageUrl: "/Framer.png",
     description:
-      "A YouTube channel that offers design tutorials, tips, and resources for UI/UX designers.",
+      "A powerful design and prototyping tool for creating interactive, animated UI experiences.",
+  },
+  {
+    title: "Ant Design",
+    href: "https://ant.design/",
+    imageUrl: "/antdesign.png",
+    description:
+      "A comprehensive React UI framework with enterprise-grade design components.",
   },
   {
     title: "TailSpark",
@@ -33,6 +33,13 @@ export const DesignComp_resources = [
     imageUrl: "/tailspark.png",
     description:
       "TailSpark is a collection of Tailwind CSS components and templates that help you build beautiful websites faster.",
+  },
+  {
+    title: "PageDone",
+    href: "https://pagedone.io/",
+    imageUrl: "/pagedone.png",
+    description:
+      "Lightning fast modern designs for your next project",
   },
   {
     title: "Fluent UI",
@@ -89,4 +96,12 @@ export const DesignComp_resources = [
     description:
       "A collection of psychological principles that help designers create better user experiences.",
   },
+  {
+    title: "Mockups by Previwed",
+    href: "https://previewed.app/",
+    imageUrl: "/previewed.png",
+    description:
+      "A collection of free mockups for showcasing your designs in realistic settings.",
+  },
+
 ];

@@ -5,12 +5,12 @@ const {
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: ["class"],
-  content: ["./app/**/*.{js,ts,jsx,tsx,mdx}",
+  content: [
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
-
-    // Or if using `src` directory:
-    "./src/**/*.{js,ts,jsx,tsx,mdx}",],
+    "./src/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
   darkMode: "class",
   theme: {
     extend: {
@@ -60,22 +60,26 @@ module.exports = {
           '4': 'hsl(var(--chart-4))',
           '5': 'hsl(var(--chart-5))'
         }
+      },
+      animation: {
+        "background-shine": "background-shine 2s linear infinite"
+      },
+      keyframes: {
+        "background-shine": {
+          from: { backgroundPosition: "0 0" },
+          to: { backgroundPosition: "-200% 0" }
+        }
       }
     }
   },
   plugins: [require("tailwindcss-animate"), addVariablesForColors],
 };
 
-// This plugin adds each Tailwind color as a global CSS variable, e.g. var(--gray-200).
-function addVariablesForColors({
-  addBase,
-  theme
-}) {
+function addVariablesForColors({ addBase, theme }) {
   let allColors = flattenColorPalette(theme("colors"));
   let newVars = Object.fromEntries(Object.entries(allColors).map(([key, val]) => [`--${key}`, val]));
-
+  
   addBase({
     ":root": newVars,
   });
 }
-

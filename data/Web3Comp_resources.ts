@@ -36,6 +36,12 @@ export const Web3Comp_resources = [
     description: "The foundational platform for building decentralized applications using blockchain technology and smart contracts.",
   },
   {
+    title: "Solana",
+    href: "https://solana.com/",
+    imageUrl: "/solana2.png",
+    description: "A high-performance blockchain platform for decentralized applications and crypto projects.",
+  },
+  {
     title: "Polygon",
     href: "https://docs.polygon.technology/",
     imageUrl: "/polygon.png",

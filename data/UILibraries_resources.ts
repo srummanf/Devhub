@@ -1,10 +1,28 @@
 export const UILibraries_resources = [
   {
+    title: "Tailwind CSS",
+    href: "https://tailwindcss.com/",
+    imageUrl: "/TailwindCSS.png",
+    description: "A utility-first CSS framework that helps you build modern and responsive designs quickly.",
+  },
+  {
+    title: "Bootstrap",
+    href: "https://getbootstrap.com/",
+    imageUrl: "/Bootstrap.png",
+    description: "A popular CSS framework that provides responsive, prebuilt components for rapid web development.",
+  },
+  {
     title: "Flowbite",
     href: "https://flowbite.com/",
     imageUrl: "/Flowbite.png",
     description:
       "Flowbite is an ecosystem built on top of Tailwind CSS including a component library, block sections, a Figma design system and other resources.",
+  },
+  {
+    title: "Mamba UI",
+    href: "https://mambaui.com/components/avatar",
+    imageUrl: "/MambaUI.png",
+    description: "A collection of beautifully designed UI components built with Tailwind CSS, perfect for beginners.",
   },
   {
     title: "Preline",
@@ -103,5 +121,12 @@ export const UILibraries_resources = [
     imageUrl: "/koko.png",
     description:
       "A UI library that combines simplicity and elegance for a delightful user experience.",
+  },
+  {
+    title: "PageDone",
+    href: "https://pagedone.io/",
+    imageUrl: "/pagedone.png",
+    description:
+      "Lightning fast modern designs for your next project",
   },
 ];

@@ -12,7 +12,7 @@ export function Beginner_sComp() {
         <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
           Getting Started with Hackathon -
         </span>{" "}
-        Beginner's Resources
+        Beginner's Resources - Tutorials
       </h1>
       <p className="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400 mb-8">
         Kickstart your hackathon journey with beginner-friendly resources
@@ -36,6 +36,7 @@ export function Beginner_sComp() {
             href={site.href}
             imageUrl={site.imageUrl}
             description={site.description}
+            tag={site.tag}
           />
           // </motion.div>
         ))}
