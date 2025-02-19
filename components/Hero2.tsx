@@ -5,6 +5,7 @@ import { Pacifico } from "next/font/google";
 import Image from "next/image";
 import { cn } from "@/lib/utils";
 import Terminal from "./ui/terminal_v0";
+import { AnimatedSpan, Terminal2, TypingAnimation } from "./magicui/terminal";
 import { ScrollableCardSection } from "./ScrollableCards";
 
 const pacifico = Pacifico({
@@ -103,7 +104,6 @@ export default function HeroGeometric({
 
   return (
     <div className="relative min-h-screen w-full  flex items-center justify-center overflow-hidden bg-[#030303]">
-      
       <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/[0.05] via-transparent to-rose-500/[0.05] blur-3xl" />
 
       <div className="absolute inset-0 overflow-hidden">
@@ -153,7 +153,7 @@ export default function HeroGeometric({
         />
       </div>
 
-      <div className="relative z-10 container mt-[7rem] mx-auto px-4 md:px-6"> 
+      <div className="relative z-10 container mt-[7rem] mx-auto px-4 md:px-6">
         <div className="max-w-3xl mx-auto text-center">
           <motion.div
             custom={0}
@@ -205,20 +205,103 @@ export default function HeroGeometric({
             </p>
           </motion.div>
         </div>
-        <Terminal />
-        <ScrollableCardSection
-  items={[
-    { id: "Beginner_sComp", title: "Beginner's Guide", description: "Get started with web development." },
-    { id: "Web3Comp", title: "Web3 Essentials", description: "Learn about blockchain & smart contracts." },
-    { id: "UILibraries", title: "UI Libraries", description: "Explore pre-built UI components." },
-    { id: "AnimatedUILibraries", title: "Animated UI", description: "Enhance UI with animations." },
-    { id: "MiscComp", title: "Miscellaneous Tools", description: "Useful tools for developers." },
-    { id: "DesignComp", title: "Design Resources", description: "UI/UX tools and inspirations." },
-    { id: "FinalDance", title: "Final Dance", description: "UI/UX tools and inspirations." },
-    { id: "TakeABreak", title: "Take a Break", description: "Fun & relaxing resources." },
-  ]}
-/>
+        <Terminal2>
+          <TypingAnimation>&gt; pnpm dlx shadcn@latest init</TypingAnimation>
 
+          <AnimatedSpan delay={1500} className="text-green-500">
+            <span>✔ Preflight checks.</span>
+          </AnimatedSpan>
+
+          <AnimatedSpan delay={2000} className="text-green-500">
+            <span>✔ Verifying framework. Found Next.js.</span>
+          </AnimatedSpan>
+
+          <AnimatedSpan delay={2500} className="text-green-500">
+            <span>✔ Validating Tailwind CSS.</span>
+          </AnimatedSpan>
+
+          <AnimatedSpan delay={3000} className="text-green-500">
+            <span>✔ Validating import alias.</span>
+          </AnimatedSpan>
+
+          <AnimatedSpan delay={3500} className="text-green-500">
+            <span>✔ Writing components.json.</span>
+          </AnimatedSpan>
+
+          <AnimatedSpan delay={4000} className="text-green-500">
+            <span>✔ Checking registry.</span>
+          </AnimatedSpan>
+
+          <AnimatedSpan delay={4500} className="text-green-500">
+            <span>✔ Updating tailwind.config.ts</span>
+          </AnimatedSpan>
+
+          <AnimatedSpan delay={5000} className="text-green-500">
+            <span>✔ Updating app/globals.css</span>
+          </AnimatedSpan>
+
+          <AnimatedSpan delay={5500} className="text-green-500">
+            <span>✔ Installing dependencies.</span>
+          </AnimatedSpan>
+
+          <AnimatedSpan delay={6000} className="text-blue-500">
+            <span>ℹ Updated 1 file:</span>
+            <span className="pl-2">- lib/utils.ts</span>
+          </AnimatedSpan>
+
+          <TypingAnimation delay={6500} className="text-muted-foreground">
+            Success! Project initialization completed.
+          </TypingAnimation>
+
+          <TypingAnimation delay={7000} className="text-muted-foreground">
+            You may now add components.
+          </TypingAnimation>
+        </Terminal2>
+        
+        <ScrollableCardSection
+          items={[
+            {
+              id: "Beginner_sComp",
+              title: "Beginner's Guide",
+              description: "Get started with web development.",
+            },
+            {
+              id: "Web3Comp",
+              title: "Web3 Essentials",
+              description: "Learn about blockchain & smart contracts.",
+            },
+            {
+              id: "UILibraries",
+              title: "UI Libraries",
+              description: "Explore pre-built UI components.",
+            },
+            {
+              id: "AnimatedUILibraries",
+              title: "Animated UI",
+              description: "Enhance UI with animations.",
+            },
+            {
+              id: "MiscComp",
+              title: "Miscellaneous Tools",
+              description: "Useful tools for developers.",
+            },
+            {
+              id: "DesignComp",
+              title: "Design Resources",
+              description: "UI/UX tools and inspirations.",
+            },
+            {
+              id: "FinalDance",
+              title: "Final Dance",
+              description: "UI/UX tools and inspirations.",
+            },
+            {
+              id: "TakeABreak",
+              title: "Take a Break",
+              description: "Fun & relaxing resources.",
+            },
+          ]}
+        />
       </div>
 
       <div className="absolute inset-0 bg-gradient-to-t from-[#030303] via-transparent to-[#030303]/80 pointer-events-none" />

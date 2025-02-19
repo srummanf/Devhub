@@ -1,17 +1,11 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+
+import { GeistMono } from 'geist/font/mono'
+import { GeistSans } from "geist/font/sans";
 import "./globals.css";
 import MouseMoveEffect from "@/components/mousemoveEffect";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
   title: "Developer Resources for Hacknight'25",
@@ -32,7 +26,7 @@ export default function RootLayout({
     //   </body>
     // </html>
     <html lang="en" className="dark">
-      <body className={`${geistSans.variable} ${geistMono.variable} bg-background text-foreground antialiased overflow-x-hidden `}>
+      <body className={`${GeistSans.className} bg-background text-foreground antialiased overflow-x-hidden `}>
         <MouseMoveEffect />
         {children}
       </body>

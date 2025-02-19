@@ -2,6 +2,7 @@
 
 import * as React from "react";
 import TiltCard from "./animata/card/tilted-card";
+import { InteractiveHoverButton } from "./magicui/interactive-hover-button";
 
 interface ScrollableCardSectionProps {
   items?: { id: string; title: string; description: string }[];
@@ -30,12 +31,13 @@ export function ScrollableCardSection({ items }: ScrollableCardSectionProps) {
           <div
             key={index}
             onClick={() => handleScroll(item.id)}
-            className="cursor-pointer shadow-lg rounded-xl p-6 text-white transition-transform transform hover:-translate-y-2 hover:shadow-xl"
+            className="cursor-pointer shadow-lg rounded-xl p-6 text-white"
           >
-            <TiltCard
+            <InteractiveHoverButton>{item.title}</InteractiveHoverButton>
+            {/* <TiltCard
               className="hover:bg-[#F9733E]"
               title={item.title}
-            />
+            /> */}
             {/* <h3 className="text-xl font-semibold">{item.title}</h3>
             <p className="text-gray-300 mt-2">{item.description}</p> */}
           </div>
