@@ -9,10 +9,10 @@ export function Beginner_sComp() {
   return (
     <div id="Beginner_sComp" className="container mx-auto px-6 py-10 bg-[#030303]">
       <h1 className="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
-        <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
-          Getting Started with Hackathon -
+        <span className="text-transparent bg-clip-text bg-gradient-to-r to-[#b42f41] from-[#e1764f]">
+          Getting Started with Hackathon
         </span>{" "}
-        Beginner's Resources - Tutorials
+       
       </h1>
       <p className="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400 mb-8">
         Kickstart your hackathon journey with beginner-friendly resources

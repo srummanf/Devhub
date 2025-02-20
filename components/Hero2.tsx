@@ -184,7 +184,7 @@ export default function HeroGeometric({
               <br />
               <span
                 className={cn(
-                  "bg-clip-text text-transparent bg-gradient-to-r from-indigo-300 via-white/90 to-rose-300 ",
+                  "bg-clip-text text-transparent bg-gradient-to-r from-[#F97140] via-white/90 to-[#EB3750] ",
                   pacifico.className
                 )}
               >
