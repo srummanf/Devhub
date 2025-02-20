@@ -258,50 +258,7 @@ export default function HeroGeometric({
           </TypingAnimation>
         </Terminal2>
         
-        <ScrollableCardSection
-          items={[
-            {
-              id: "Beginner_sComp",
-              title: "Beginner's Guide",
-              description: "Get started with web development.",
-            },
-            {
-              id: "Web3Comp",
-              title: "Web3 Essentials",
-              description: "Learn about blockchain & smart contracts.",
-            },
-            {
-              id: "UILibraries",
-              title: "UI Libraries",
-              description: "Explore pre-built UI components.",
-            },
-            {
-              id: "AnimatedUILibraries",
-              title: "Animated UI",
-              description: "Enhance UI with animations.",
-            },
-            {
-              id: "MiscComp",
-              title: "Miscellaneous Tools",
-              description: "Useful tools for developers.",
-            },
-            {
-              id: "DesignComp",
-              title: "Design Resources",
-              description: "UI/UX tools and inspirations.",
-            },
-            {
-              id: "FinalDance",
-              title: "Final Dance",
-              description: "UI/UX tools and inspirations.",
-            },
-            {
-              id: "TakeABreak",
-              title: "Take a Break",
-              description: "Fun & relaxing resources.",
-            },
-          ]}
-        />
+        
       </div>
 
       <div className="absolute inset-0 bg-gradient-to-t from-[#030303] via-transparent to-[#030303]/80 pointer-events-none" />

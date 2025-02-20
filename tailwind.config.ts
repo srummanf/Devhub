@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        pixelify: ["Pixelify Sans", "sans-serif"],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

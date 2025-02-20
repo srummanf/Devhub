@@ -14,6 +14,9 @@ module.exports = {
   darkMode: "class",
   theme: {
     extend: {
+      fontFamily: {
+        pixelify: ["Pixelify Sans", "sans-serif"],
+      },
       borderRadius: {
         lg: 'var(--radius)',
         md: 'calc(var(--radius) - 2px)',

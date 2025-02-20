@@ -1,5 +1,5 @@
 "use client";
-
+import { Inter } from 'next/font/google'
 import * as React from "react";
 import TiltCard from "./animata/card/tilted-card";
 import { InteractiveHoverButton } from "./magicui/interactive-hover-button";
@@ -21,17 +21,13 @@ export function ScrollableCardSection({ items }: ScrollableCardSectionProps) {
   };
 
   return (
-    <section className="container mx-auto py-12 px-6">
-      <h2 className="text-3xl font-bold text-white text-center mb-8">
-        Explore Developer Resources
-      </h2>
-
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+    <section className=" bg-[#030303] py-12">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 ">
         {items?.map((item, index) => (
           <div
             key={index}
             onClick={() => handleScroll(item.id)}
-            className="cursor-pointer shadow-lg rounded-xl p-6 text-white"
+            className="cursor-pointer text-white"
           >
             <InteractiveHoverButton>{item.title}</InteractiveHoverButton>
             {/* <TiltCard
