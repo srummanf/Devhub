@@ -1,9 +1,9 @@
 export const MiscComp_resources = [
   {
-    title: "v0",
+    title: "V0",
     href: "https://v0.dev/",
     imageUrl: "/v0.png",
-    description: "v0 is your always-on pair-programmer. A generative chat interface with in-depth knowledge on modern web technologies. ",
+    description: "V0 is your always-on pair-programmer. A generative chat interface with in-depth knowledge on modern web technologies. ",
   },
   {
     title: "Bolt",

@@ -13,6 +13,13 @@ export const FinalDance_resources = [
       description:
         "Co-create, share, and analyze presentations with Pitch! Pitch is where everyone in your team can build impressive, on-brand decks in minutes.",
     },
+    {
+      title: "Vercel",
+      href: "https://vercel.com/",
+      imageUrl: "/vercell.png",
+      description:
+        "Easy. Building and deploying should be as easy as a single tap.",
+    },
    
   ];
   

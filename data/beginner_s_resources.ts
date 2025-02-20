@@ -14,11 +14,25 @@ export const beginner_s_resources = [
     tag: "HTML CSS JS"
   },
   {
-    title: "Scrimba",
-    href: "https://scrimba.com/t0html",
+    title: "React",
+    href: "https://scrimba.com/learn-react-c0e",
     imageUrl: "/Scrimba.png",
-    description: "An interactive platform that provides hands-on coding experience with HTML, CSS, and JavaScript.",
-    tag: "Full Stack Dev",
+    description: "The library for web and native user interfaces.",
+    tag: "React",
+  },
+  {
+    title: "NextJS",
+    href: "https://nextjs.org/learn",
+    imageUrl: "/nextjs.png",
+    description: "Next.js is a React framework for building full-stack web applications. ",
+    tag: "NextJS",
+  },
+  {
+    title: "Flask",
+    href: "https://realpython.com/tutorials/flask/",
+    imageUrl: "/flask.avif",
+    description: "Flask is a popular Python web framework, meaning it is a third-party Python library used for developing web applications.",
+    tag: "Flask",
   },
   {
     title: "SmolJames",
@@ -34,13 +48,14 @@ export const beginner_s_resources = [
     description: "Learn React, Redux, Node.js, MongoDB, GraphQL and TypeScript in one go! This course will introduce you to modern JavaScript-based web development.",
     tag: "Full Stack Dev",
   },
+  
   {
-    title: "DesignCourse",
+    title: "Figma Course DesignCourse",
     href: "https://youtu.be/o1nCmiW6auE?si=z48EdOo9-DkqR9-w",
     imageUrl: "/dc.png",
     description:
-      "A YouTube channel that offers design tutorials, tips, and resources for UI/UX designers.",
-      tag: "UI UX Design",
+      "Ultimate Figma Crash Course - Full Layout by Example",
+      tag: "Figma",
   },
   {
     title: "UI UX Case Study",
