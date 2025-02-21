@@ -2,15 +2,30 @@
 import React from "react";
 import { Card } from "@/components/ui/Card";
 import { PinContainer } from "@/components/ui/3d-pin";
-
+import { useRef } from "react";
+import VariableProximity from "@/components/VariablePromixity";
 import { TakeABreak_resources } from "../data/TakeABreak_resources";
 
 export function TakeABreak() {
+  const containerRef = useRef(null);
   return (
     <div id="TakeABreak" className="container mx-auto px-6 py-10 bg-[#030303]">
-      <h2 className="text-4xl font-extrabold text-slate-100 mb-6 ml-4 tracking-tight">
+      {/* <h2 className="text-4xl font-extrabold text-slate-100 mb-6 ml-4 tracking-tight">
         Take a Break - Chill Zone
-      </h2>
+      </h2> */}
+      <div ref={containerRef} className="relative mb-6">
+        <VariableProximity
+          label={"Take a Break - Chill Zone"}
+          className={
+            "variable-proximity-demo text-4xl font-extrabold text-slate-100 ml-4 tracking-tight"
+          }
+          fromFontVariationSettings="'wght' 400, 'opsz' 9"
+          toFontVariationSettings="'wght' 1000, 'opsz' 40"
+          containerRef={containerRef}
+          radius={100}
+          falloff="linear"
+        />
+      </div>
       <p className="text-lg text-slate-300 mb-6 ml-4 leading-relaxed">
         Sometimes, a little break is all you need to recharge and boost your
         creativity. Step into the Chill Zone with fun, relaxing activities or

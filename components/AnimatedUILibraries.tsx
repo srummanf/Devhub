@@ -2,20 +2,41 @@
 import React from "react";
 import { Card } from "@/components/ui/Card";
 import { PinContainer } from "@/components/ui/3d-pin";
-
+import { useRef } from "react";
+import VariableProximity from "@/components/VariablePromixity";
 import { AnimatedUILibraries_resources } from "../data/AnimatedUILibraries_resources";
 
 export function AnimatedUILibraries() {
+  const containerRef = useRef(null);
   return (
-
-    <div id="AnimatedUILibraries" className="container mx-auto px-6 py-10 bg-[#030303]">
-      <h2 className="text-4xl font-extrabold text-slate-100 mb-6 ml-4 tracking-tight">Animated UI Libraries</h2>
+    <div
+      id="AnimatedUILibraries"
+      className="container mx-auto px-6 py-10 bg-[#030303]"
+    >
+      {/* <h2 className="text-4xl font-extrabold text-slate-100 mb-6 ml-4 tracking-tight">
+        Animated UI Libraries
+      </h2> */}
+      <div ref={containerRef} className="relative mb-6">
+        <VariableProximity
+          label={"Animated UI Libraries"}
+          className={
+            "variable-proximity-demo text-4xl font-extrabold text-slate-100 ml-4 tracking-tight"
+          }
+          fromFontVariationSettings="'wght' 400, 'opsz' 9"
+          toFontVariationSettings="'wght' 1000, 'opsz' 40"
+          containerRef={containerRef}
+          radius={100}
+          falloff="linear"
+        />
+      </div>
       <p className="text-lg text-slate-300 mb-6 ml-4 leading-relaxed">
-  Enhance your web development projects with animation libraries that bring interactive and dynamic elements to your UI. Explore libraries designed to work seamlessly with frameworks like React, helping you create smooth transitions, animations, and engaging user experiences.
-</p>
+        Enhance your web development projects with animation libraries that
+        bring interactive and dynamic elements to your UI. Explore libraries
+        designed to work seamlessly with frameworks like React, helping you
+        create smooth transitions, animations, and engaging user experiences.
+      </p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 gap-x-6 gap-y-12">
-
         {AnimatedUILibraries_resources.map((site, index) => (
           <Card
             key={index}
