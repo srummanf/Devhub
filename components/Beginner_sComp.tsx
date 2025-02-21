@@ -16,7 +16,7 @@ export function Beginner_sComp() {
       <h1 className="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
         {/* <span className="text-transparent bg-clip-text bg-gradient-to-r to-[#b42f41] from-[#e1764f]">
           Getting Started with Hackathon
-        </span> */}
+          </span> */}
         <div ref={containerRef} className="relative mb-6">
           <VariableProximity
             label={"Getting Started with Hackathon"}

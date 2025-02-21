@@ -31,6 +31,12 @@ export const AnimatedUILibraries_resources = [
     description: "An elegant animation-focused component library, perfect for creating fluid and engaging user experiences.",
   },
   {
+    title: "ReactBits",
+    href: "https://www.reactbits.dev/",
+    imageUrl: "/reactbits2.png",
+    description: "Hand-picked animated components collection for creative developers",
+  },
+  {
     title: "Animation by IBleck",
     href: "https://animation.ibelick.com/",
     imageUrl: "/animibleck.png",

@@ -164,7 +164,7 @@ export default function HeroGeometric({
           >
             <Image
               src="https://www.hacknight25.tech/hc_logo.svg"
-              alt="Kokonut UI"
+              alt="HackClub VIT Chennai"
               width={20}
               height={20}
             />
@@ -206,55 +206,55 @@ export default function HeroGeometric({
           </motion.div>
         </div>
         <Terminal2>
-          <TypingAnimation>&gt; pnpm dlx shadcn@latest init</TypingAnimation>
+          <TypingAnimation>&gt; ✔ AYO?? Preflight checks going WILD.</TypingAnimation>
 
           <AnimatedSpan delay={1500} className="text-green-500">
-            <span>✔ Preflight checks.</span>
+            <span>✔ NEXT.JS DETECTED. ENGAGING HACKER MODE 🦇.</span>
           </AnimatedSpan>
 
           <AnimatedSpan delay={2000} className="text-green-500">
-            <span>✔ Verifying framework. Found Next.js.</span>
+            <span>✔ Tailwind? CHECK. Your CSS is now legally OP.</span>
           </AnimatedSpan>
 
           <AnimatedSpan delay={2500} className="text-green-500">
-            <span>✔ Validating Tailwind CSS.</span>
+            <span>✔ Import alias secured. No more spaghetti code.</span>
           </AnimatedSpan>
 
           <AnimatedSpan delay={3000} className="text-green-500">
-            <span>✔ Validating import alias.</span>
+            <span>✔ Writing components.json... Your components are cooking 🍳🔥.</span>
           </AnimatedSpan>
 
           <AnimatedSpan delay={3500} className="text-green-500">
-            <span>✔ Writing components.json.</span>
+            <span>✔ Checking registry... HACKER DETECTED. Wait, that's you 👀.</span>
           </AnimatedSpan>
 
           <AnimatedSpan delay={4000} className="text-green-500">
-            <span>✔ Checking registry.</span>
+            <span>✔ config.ts upgraded. Your UI is now 300% more drippy 💧.</span>
           </AnimatedSpan>
 
           <AnimatedSpan delay={4500} className="text-green-500">
-            <span>✔ Updating tailwind.config.ts</span>
+            <span>✔ app/globals.css updated. Theme looking illegal 🔥.</span>
           </AnimatedSpan>
 
           <AnimatedSpan delay={5000} className="text-green-500">
-            <span>✔ Updating app/globals.css</span>
+            <span>✔ Dependencies installed. Your project just leveled up ⚡.</span>
           </AnimatedSpan>
 
           <AnimatedSpan delay={5500} className="text-green-500">
-            <span>✔ Installing dependencies.</span>
+            <span>✔ Your project just leveled up ⚡.</span>
           </AnimatedSpan>
 
           <AnimatedSpan delay={6000} className="text-blue-500">
             <span>ℹ Updated 1 file:</span>
-            <span className="pl-2">- lib/utils.ts</span>
+            <span className="pl-2">- lib/utils.ts (new skill unlocked 🧠💥).</span>
           </AnimatedSpan>
 
           <TypingAnimation delay={6500} className="text-muted-foreground">
-            Success! Project initialization completed.
+          ✅ SUCCESS! Project initialized. You are now built different.
           </TypingAnimation>
 
           <TypingAnimation delay={7000} className="text-muted-foreground">
-            You may now add components.
+          🚀 Time to summon components. HackKnight'25 awaits 🦇.
           </TypingAnimation>
         </Terminal2>
         
