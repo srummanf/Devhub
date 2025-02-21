@@ -3,13 +3,15 @@ export const UILibraries_resources = [
     title: "Tailwind CSS",
     href: "https://tailwindcss.com/",
     imageUrl: "/TailwindCSS.png",
-    description: "A utility-first CSS framework that helps you build modern and responsive designs quickly.",
+    description:
+      "A utility-first CSS framework that helps you build modern and responsive designs quickly.",
   },
   {
     title: "Bootstrap",
     href: "https://getbootstrap.com/",
     imageUrl: "/Bootstrap.png",
-    description: "A popular CSS framework that provides responsive, prebuilt components for rapid web development.",
+    description:
+      "A popular CSS framework that provides responsive, prebuilt components for rapid web development.",
   },
   {
     title: "Flowbite",
@@ -22,7 +24,8 @@ export const UILibraries_resources = [
     title: "Mamba UI",
     href: "https://mambaui.com/components/avatar",
     imageUrl: "/MambaUI.png",
-    description: "A collection of beautifully designed UI components built with Tailwind CSS, perfect for beginners.",
+    description:
+      "A collection of beautifully designed UI components built with Tailwind CSS, perfect for beginners.",
   },
   {
     title: "Preline",
@@ -126,7 +129,37 @@ export const UILibraries_resources = [
     title: "PageDone",
     href: "https://pagedone.io/",
     imageUrl: "/pagedone.png",
+    description: "Lightning fast modern designs for your next project",
+  },
+  {
+    title: "Base UI",
+    href: "https://base-ui.com/react/overview/quick-start",
+    imageUrl: "https://repository-images.githubusercontent.com/762289766/2ffed049-9511-44e6-99f6-b01fe84c9ce7",
+    description: "Unstyled UI components for building accessible web apps and design systems. From the creators of Radix, Floating UI, and Material UI",
+  },
+  {
+    title: "Mantine",
+    href: "https://mantine.dev/",
+    imageUrl: "/mantine.png",
+    description: "A modern React component library with rich features, accessibility, and customization.",
+  },
+  {
+    title: "PlateJS",
+    href: "https://platejs.org/",
+    imageUrl: "/plate.png",
     description:
-      "Lightning fast modern designs for your next project",
+      "Plate is a powerful toolkit that makes it easier for you to develop with Slate, a popular framework for building text editors.",
+  },
+  {
+    title: "Tremor",
+    href: "https://tremor.so/",
+    imageUrl: "/tremor.png",
+    description: "A modern UI framework for building data-rich dashboards and applications with Tailwind CSS.",
+  },
+  {
+    title: "SRCL",
+    href: "https://www.sacred.computer/",
+    imageUrl: "/srcl.png",
+    description: "SRCL is an open-source React component and style repository that helps you build web applications, desktop applications, and static websites with terminal aesthetics.",
   },
 ];

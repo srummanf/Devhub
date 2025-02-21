@@ -20,6 +20,13 @@ export const FinalDance_resources = [
       description:
         "Easy. Building and deploying should be as easy as a single tap.",
     },
+    {
+      title: "Manifest",
+      href: "https://www.manifest.app/",
+      imageUrl: "/manifest.png",
+      description:
+        "Manifest is a grid-based pinboard for note taking.",
+    },
    
   ];
   

@@ -16,6 +16,12 @@ export const TakeABreak_resources = [
       href: "https://www.frivclassic.com/",
       imageUrl: "/friv.png",
       description: "A collection of free, simple, and fun online games for when you need a quick distraction.",
+    },
+    {
+      title: "Chicago Kare",
+      href: "https://chicagokare.xyz/",
+      imageUrl: "https://freight.cargo.site/w/1920/h/1256/q/75/i/P2061282849578399709854145970552/steve-jobs.png",
+      description: "A Faithful Reproduction of the Bitmap Version of the Chicago Typeface Created by Susan Kare for Apple Computer in 1984.",
     }
   ];
   

@@ -12,16 +12,17 @@ export const MiscComp_resources = [
     description: "Bolt is a tool for prototyping and building web applications with a focus on speed and simplicity.",
   },
   {
+    title: "Screenshot to Code",
+    href: "https://screenshottocode.com/",
+    imageUrl: "/stc.png",
+    description: "Convert any screenshot or design to clean code (with support for most frameworks)",
+  },
+
+  {
     title: "Roadmap.sh",
     href: "https://roadmap.sh/",
     imageUrl: "/roadmapsh.png",
     description: "Roadmap.sh is a community effort to create roadmaps, guides and other educational content to help guide developers in picking up a path and guide their learnings.",
-  },
-  {
-    title: "Tremor",
-    href: "https://tremor.so/",
-    imageUrl: "/tremor.png",
-    description: "A modern UI framework for building data-rich dashboards and applications with Tailwind CSS.",
   },
   {
     title: "Background by IBleck",
@@ -35,18 +36,7 @@ export const MiscComp_resources = [
     imageUrl: "/buttonsibleck.png",
     description: "A set of beautifully crafted buttons with hover effects and animations.",
   },
-  {
-    title: "Visx",
-    href: "https://airbnb.io/visx",
-    imageUrl: "/visx.png",
-    description: "A powerful visualization library that combines the best of D3.js with React.",
-  },
-  {
-    title: "Mantine",
-    href: "https://mantine.dev/",
-    imageUrl: "/mantine.png",
-    description: "A modern React component library with rich features, accessibility, and customization.",
-  },
+  
   {
     title: "Google Fonts",
     href: "https://fonts.google.com/",
@@ -60,6 +50,24 @@ export const MiscComp_resources = [
     description: "A UI component library for creating stunning, interactive web experiences.",
   },
   {
+    title: "Animated Icons by pqoqubbw",
+    href: "https://icons.pqoqubbw.dev/",
+    imageUrl: "https://github.com/pqoqubbw/icons/blob/main/app/og.png?raw=true",
+    description: "An open-source collection of smooth animated icons for your projects.",
+  },
+  {
+    title: "SVGL",
+    href: "https://svgl.app/",
+    imageUrl: "https://github.com/pheralb/svgl/raw/main/static/images/readme.png",
+    description: "A beautiful library with SVG logos.",
+  },
+  {
+    title: "Fumadocs",
+    href: "https://fumadocs.vercel.app/",
+    imageUrl: "https://github.com/fuma-nama/fumadocs/raw/dev/apps/docs/public/banner.png",
+    description: "The framework for building documentation websites in Next.js.",
+  },
+  {
     title: "UIVerse",
     href: "https://uiverse.io/",
     imageUrl: "/uiverse.png",
@@ -70,5 +78,11 @@ export const MiscComp_resources = [
     href: "https://tympanus.net/codrops/demos/",
     imageUrl: "/codrops.png",
     description: "A web design and development blog that publishes articles and tutorials about the latest web trends, techniques, and new possibilities.",
+  },
+  {
+    title: "Gitmoji",
+    href: "https://gitmoji.dev/",
+    imageUrl: "/gitmoji.png",
+    description: "An emoji guide for your commit messages.",
   },
 ];

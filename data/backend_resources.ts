@@ -60,6 +60,17 @@ export const backend_resources = [
       imageUrl: "https://atlassianblog.wpengine.com/wp-content/uploads/2017/01/how-to-deploy-java-apps-with-docker-a-quick-tutorial@3x-1560x760.png",
       description: "Docker is an open platform for developing, shipping, and running applications.",
     },
-    
+    {
+      title: "Git",
+      href: "https://www.docker.com/",
+      imageUrl: "/git.png",
+      description: "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.",
+    },
+    {
+      title: "GitHub",
+      href: "https://github.com/",
+      imageUrl: "/github.png",
+      description: "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.",
+    },
   ];
   
