@@ -14,7 +14,7 @@ export const AnimatedUILibraries_resources = [
 
   {
     title: "Animata",
-    href: "https://animata.design/",
+    href: "https://animata.design/docs",
     imageUrl: "/Animata.png",
     description: "A curated set of prebuilt animations and design tools to create stunning motion experiences.",
   },

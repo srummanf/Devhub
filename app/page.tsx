@@ -16,6 +16,7 @@ import { Web3Comp } from "@/components/Web3Comp";
 import { MainNav } from "@/components/MainNav";
 import { FinalDance } from "@/components/FinalDance";
 import { ScrollableCardSection } from "@/components/ScrollableCards";
+import { BackendComp } from "@/components/BackendComp";
 
 export default function Home() {
   return (
@@ -44,6 +45,11 @@ export default function Home() {
               description: "Enhance UI with animations.",
             },
             {
+              id: "BackendComp",
+              title: "BackendComp",
+              description: "Enhance UI with animations.",
+            },
+            {
               id: "MiscComp",
               title: "Miscellaneous Tools",
               description: "Useful tools for developers.",
@@ -69,6 +75,7 @@ export default function Home() {
       <Web3Comp />
       <UILibraries />
       <AnimatedUILibraries />
+      <BackendComp/>
       <MiscComp />
       <DesignComp />
       <FinalDance/>
