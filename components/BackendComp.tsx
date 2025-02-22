@@ -19,7 +19,7 @@ export function BackendComp() {
           </span> */}
         <div ref={containerRef} className="relative mb-6">
           <VariableProximity
-            label={"Backend"}
+            label={"Backend Essentials"}
             className={
               "variable-proximity-demo text-transparent bg-clip-text bg-gradient-to-r to-[#b42f41] from-[#e1764f]"
             }
@@ -32,12 +32,7 @@ export function BackendComp() {
         </div>
       </h1>
       <p className="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400 mb-8">
-        Kickstart your hackathon journey with beginner-friendly resources
-        designed to guide you through the essentials of web development. From
-        understanding the fundamentals of HTML, CSS, and JavaScript to mastering
-        version control and collaborative coding, these resources will help you
-        build a strong foundation and boost your confidence for your first
-        hackathon.
+      Backend development frameworks and tools provide the foundation for building scalable, secure, and efficient server-side applications. Explore a collection of powerful resources that simplify server logic, streamline database management, and enhance authentication processes. These technologies help you develop robust applications with efficient data handling, seamless security, and optimized performance.
       </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6 gap-x-6 gap-y-12">
         {backend_resources.map((site, index) => (

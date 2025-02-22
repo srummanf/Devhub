@@ -21,7 +21,7 @@ export function Framework() {
           </span> */}
         <div ref={containerRef} className="relative mb-6">
           <VariableProximity
-            label={"Web Dev Frameworks Essentials"}
+            label={"WebDev Frameworks"}
             className={
               "variable-proximity-demo text-transparent bg-clip-text bg-gradient-to-r to-[#b42f41] from-[#e1764f]"
             }

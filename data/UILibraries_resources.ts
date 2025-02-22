@@ -2,7 +2,7 @@ export const UILibraries_resources = [
   {
     title: "Tailwind CSS",
     href: "https://tailwindcss.com/",
-    imageUrl: "/TailwindCSS.png",
+    imageUrl: "https://miro.medium.com/v2/resize:fit:1400/1*__f27S-qQF2CAASt5bOwqg.png",
     description:
       "A utility-first CSS framework that helps you build modern and responsive designs quickly.",
   },
@@ -16,7 +16,7 @@ export const UILibraries_resources = [
   {
     title: "Flowbite",
     href: "https://flowbite.com/",
-    imageUrl: "/Flowbite.png",
+    imageUrl: "https://flowbite.com/images/og-image.png",
     description:
       "Flowbite is an ecosystem built on top of Tailwind CSS including a component library, block sections, a Figma design system and other resources.",
   },
@@ -49,7 +49,7 @@ export const UILibraries_resources = [
       "A beautifully designed, accessible, and customizable UI component library for React.",
   },
   {
-    title: "Shadcn UI blocks",
+    title: "ShadCN UI blocks",
     href: "https://shadcn-ui-blocks.vercel.app/",
     imageUrl: "/shadcnui.png",
     description:
@@ -58,21 +58,21 @@ export const UILibraries_resources = [
   {
     title: "Radix UI",
     href: "https://www.radix-ui.com/",
-    imageUrl: "/Radix.png",
+    imageUrl: "https://i.ytimg.com/vi/1JnwJBtg4VA/maxresdefault.jpg",
     description:
       "An open source component library optimized for fast development, easy maintenance, and accessibility. Just import and go—no configuration required.",
   },
   {
     title: "Daisy UI",
     href: "https://daisyui.com/",
-    imageUrl: "/Daisy.png",
+    imageUrl: "/Daisy2.png",
     description:
       "An extension for Tailwind CSS that provides customizable and elegant components.",
   },
   {
     title: "AceternityUI",
     href: "https://ui.aceternity.com/",
-    imageUrl: "/aceternity.png",
+    imageUrl: "https://ui.aceternity.com/_next/image?url=https%3A%2F%2Fassets.aceternity.com%2Fhover-border-gradient.png&w=1920&q=75",
     description:
       "A modern UI library with beautiful animations and pre-built components.",
   },

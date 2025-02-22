@@ -4,7 +4,14 @@ export const backend_resources = [
     href: "https://vercel.com/",
     imageUrl: "/vercell.png",
     description:
-      "Vercel is a cloud platform that helps developers build, host, and scale frontend web applications",
+      "Vercel is a cloud platform that helps developers deploy, host, and scale frontend web applications",
+  },
+  {
+    title: "Netlify",
+    href: "https://www.netlify.com/",
+    imageUrl: "https://static.agilitycms.com/copy-of-copy-of-blog-covers-2021-11-11t105359.633.jpg?format=auto",
+    description:
+      "Netlify is a cloud platform that helps developers deploy, host, and scale frontend web applications",
   },
   {
     title: "Firebase",

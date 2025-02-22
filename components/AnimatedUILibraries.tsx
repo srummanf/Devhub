@@ -35,8 +35,8 @@ export function AnimatedUILibraries() {
         </div>
       </h1>
       <p className="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400 mb-8">
-        Enhance your web development projects with animation libraries that
-        bring interactive and dynamic elements to your UI. Explore libraries
+        Enhance your web development projects with animation libraries and animated components that
+        bring interactive and dynamic elements to your UI. Explore component libraries
         designed to work seamlessly with frameworks like React, helping you
         create smooth transitions, animations, and engaging user experiences.
       </p>

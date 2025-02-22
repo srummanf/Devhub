@@ -41,7 +41,7 @@ export default function Home() {
           },
           {
             id: "Framework",
-            title: "Web Dev Frameworks",
+            title: "Web Dev Essentials",
             description: "Learn about blockchain & smart contracts.",
           },
           {
@@ -56,7 +56,7 @@ export default function Home() {
           },
           {
             id: "BackendComp",
-            title: "Backend Libraries",
+            title: "Backend Dev Essentials",
             description: "Enhance UI with animations.",
           },
           {
