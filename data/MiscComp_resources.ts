@@ -81,6 +81,12 @@ export const MiscComp_resources = [
     description: "The Largest Library of Open-Source UI Community-built library of UI elements. Copy as HTML/CSS, Tailwind, React and Figma.",
   },
   {
+    title: "Codepen",
+    href: "https://codepen.io/trending",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJDbhkMUbVXn3ecG8KHUOgwAATQxy7ebzogw&s",
+    description: "A web-based code editor and playground for front-end developers.",
+  },
+  {
     title: "Codrops by Tympanus",
     href: "https://tympanus.net/codrops/demos/",
     imageUrl: "/codrops.png",
