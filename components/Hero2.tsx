@@ -81,7 +81,7 @@ function ElegantShape({
 }
 
 export default function HeroGeometric({
-  badge = "HackNight Resource Hub",
+  badge = "HackNight Resources Hub",
   title1 = "The Ultimate Hub",
   title2 = "for Developers",
 }: {

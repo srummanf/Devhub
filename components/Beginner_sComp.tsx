@@ -6,8 +6,10 @@ import { motion, AnimatePresence } from "framer-motion";
 import { beginner_s_resources } from "../data/beginner_s_resources";
 import { useRef } from "react";
 import VariableProximity from "@/components/VariablePromixity";
+import { FlipWords } from "./ui/flip-words";
 export function Beginner_sComp() {
   const containerRef = useRef(null);
+  const words = ["Frontend Development", "Backend Development", "Full-Stack Development", "UI/UX Design","Web3/Blockchain Development "];
   return (
     <div
       id="Beginner_sComp"
@@ -32,12 +34,12 @@ export function Beginner_sComp() {
         </div>
       </h1>
       <p className="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400 mb-8">
-        Kickstart your hackathon journey with beginner-friendly resources
-        designed to guide you through the essentials of web development. From
-        understanding the fundamentals of HTML, CSS, and JavaScript to mastering
-        version control and collaborative coding, these resources will help you
-        build a strong foundation and boost your confidence for your first
-        hackathon.
+        Kickstart your hackathon journey with beginner-friendly resources and
+        tutorials designed to guide you in<FlipWords words={words} />.<br/>At
+        Hacknight'25, we believe in your potential to create something amazing.
+        These resources will help you build a strong foundation and boost your
+        confidence for your first hackathon.
+        
       </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6 gap-x-6 gap-y-12">
         {beginner_s_resources.map((site, index) => (

@@ -4,12 +4,14 @@ import { Card } from "@/components/ui/Card";
 import { PinContainer } from "@/components/ui/3d-pin";
 import { useRef } from "react";
 import VariableProximity from "@/components/VariablePromixity";
-import { FinalDance_resources } from "../data/FinalDance_resources";
+import { Framework_resources } from "../data/Framework_resources";
+import { FlipWords } from "./ui/flip-words";
 
-export function FinalDance() {
+export function Framework() {
   const containerRef = useRef(null);
+  const words = ["JavaScript","Python", "Java"];
   return (
-    <div id="FinalDance" className="container mx-auto px-6 py-10 bg-[#030303]">
+    <div id="Framework" className="container mx-auto px-6 py-10 bg-[#030303]">
       {/* <h2 className="text-4xl font-extrabold text-slate-100 mb-6 ml-4 tracking-tight">
         Miscellenous UI Kits and Tools
       </h2> */}
@@ -19,7 +21,7 @@ export function FinalDance() {
           </span> */}
         <div ref={containerRef} className="relative mb-6">
           <VariableProximity
-            label={"Final Dance"}
+            label={"Web Dev Frameworks Essentials"}
             className={
               "variable-proximity-demo text-transparent bg-clip-text bg-gradient-to-r to-[#b42f41] from-[#e1764f]"
             }
@@ -32,23 +34,18 @@ export function FinalDance() {
         </div>
       </h1>
       <p className="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400 mb-8">
-        Discover a variety of UI resources that enhance your web development
-        toolkit. From unique components and libraries to UI kits, these tools
-        will help you create functional and attractive user interfaces. Whether
-        you need ready-to-use UI elements or customizations for specific needs,
-        this section offers diverse solutions for all your design and
-        development challenges.
+      Web development frameworks provide structured tools and features to streamline the creation of dynamic and efficient applications.Explore a collection of powerful frameworks like React, Next.js, Vue, Svelte, Angular, and more, designed to simplify development, enhance performance, and maintain scalability. Whether you're exploring <FlipWords words={words} />these tools will guide you in creating efficient and visually stunning web experiences.
       </p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 gap-x-6 gap-y-12">
-        {FinalDance_resources.map((site, index) => (
+        {Framework_resources.map((site, index) => (
           <Card
             key={index}
             title={site.title}
             href={site.href}
             imageUrl={site.imageUrl}
             description={site.description}
-            tag={site.tag}
+
           />
         ))}
         {/* <PinContainer

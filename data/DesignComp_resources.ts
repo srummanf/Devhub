@@ -2,7 +2,7 @@ export const DesignComp_resources = [
   {
     title: "Figma",
     href: "https://www.figma.com/",
-    imageUrl: "/figma.png",
+    imageUrl: "https://cdn.prod.website-files.com/646cb2a160bc4ae7a0eb728e/65952e600e2bf2186a955102_figma.webp",
     description:
       "A collaborative interface design tool for creating wireframes, prototypes, and UI designs.",
   },
@@ -16,14 +16,22 @@ export const DesignComp_resources = [
   {
     title: "Framer",
     href: "https://www.framer.com/",
-    imageUrl: "/Framer.png",
+    imageUrl: "https://cdn.prod.website-files.com/63c6a35ee97bea3e121bf3f4/65ba74ce20f7c87960a872ce_64631e51d10baae4dab60132_2.webp",
     description:
       "A powerful design and prototyping tool for creating interactive, animated UI experiences.",
   },
   {
+    title: "Webflow",
+    href: "https://webflow.com/",
+    imageUrl: "https://www.feedme.design/content/images/size/w1200/2024/02/653150dd550847e7ad4c24af_Slide-16_9---18.webp",
+    description:
+      "A powerful design and prototyping tool for creating interactive, animated UI experiences.",
+  },
+
+  {
     title: "TailSpark",
     href: "https://tailspark.co/",
-    imageUrl: "/tailspark.png",
+    imageUrl: "https://ph-files.imgix.net/6c8fc7f9-a901-4b00-9741-ca187fe1f7b8.png?auto=format",
     description:
       "TailSpark is a collection of Tailwind CSS components and templates that help you build beautiful websites faster.",
   },

@@ -22,6 +22,14 @@ export const backend_resources = [
       "Supabase is an open source Firebase alternative. Start your project with a Postgres database, Authentication, instant APIs and more.",
   },
   {
+    title: "Appwrite",
+    href: "https://appwrite.io/docs",
+    imageUrl:
+      "https://avatars.githubusercontent.com/u/25003669?v=4",
+    description:
+      "Build your entire backend within minutes and scale effortlessly using Appwrite's open-source platform.",
+  },
+  {
     title: "Render",
     href: "https://render.com/",
     imageUrl: "/render.png",
