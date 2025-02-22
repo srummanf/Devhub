@@ -13,18 +13,25 @@ export function Web3Comp() {
       {/* <h2 className="text-4xl font-extrabold text-slate-100 mb-6 ml-4 tracking-tight">
         Web3 Resources
       </h2> */}
-      <div ref={containerRef} className="relative mb-6">
-        <VariableProximity
-          label={"Web3 Resources"}
-          className={"variable-proximity-demo text-4xl font-extrabold text-slate-100 ml-4 tracking-tight"}
-          fromFontVariationSettings="'wght' 400, 'opsz' 9"
-          toFontVariationSettings="'wght' 1000, 'opsz' 40"
-          containerRef={containerRef}
-          radius={100}
-          falloff="linear"
-        />
-      </div>
-      <p className="text-lg text-slate-300 mb-6 ml-4 leading-relaxed">
+      <h1 className="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
+        {/* <span className="text-transparent bg-clip-text bg-gradient-to-r to-[#b42f41] from-[#e1764f]">
+          Getting Started with Hackathon -Beginner's Guide
+          </span> */}
+        <div ref={containerRef} className="relative mb-6">
+          <VariableProximity
+            label={"Web3/Blockchain Essentials"}
+            className={
+              "variable-proximity-demo text-transparent bg-clip-text bg-gradient-to-r to-[#b42f41] from-[#e1764f]"
+            }
+            fromFontVariationSettings="'wght' 400, 'opsz' 9"
+            toFontVariationSettings="'wght' 1000, 'opsz' 40"
+            containerRef={containerRef}
+            radius={100}
+            falloff="linear"
+          />
+        </div>
+      </h1>
+      <p className="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400 mb-8">
         Dive into the world of decentralized web development with Web3
         resources. Explore tools and frameworks for building decentralized
         applications (dApps), working with blockchain technologies, smart

@@ -21,13 +21,6 @@ export const DesignComp_resources = [
       "A powerful design and prototyping tool for creating interactive, animated UI experiences.",
   },
   {
-    title: "Ant Design",
-    href: "https://ant.design/",
-    imageUrl: "/antdesign.png",
-    description:
-      "A comprehensive React UI framework with enterprise-grade design components.",
-  },
-  {
     title: "TailSpark",
     href: "https://tailspark.co/",
     imageUrl: "/tailspark.png",
@@ -40,13 +33,6 @@ export const DesignComp_resources = [
     imageUrl: "/pagedone.png",
     description:
       "Lightning fast modern designs for your next project",
-  },
-  {
-    title: "Fluent UI",
-    href: "https://developer.microsoft.com/en-us/fluentui#/",
-    imageUrl: "/fluentui.png",
-    description:
-      "Microsoft's design system for creating accessible and modern web applications.",
   },
   {
     title: "Typography",
@@ -103,5 +89,11 @@ export const DesignComp_resources = [
     description:
       "A collection of free mockups for showcasing your designs in realistic settings.",
   },
-
+  {
+    title: "Manifest",
+    href: "https://www.manifest.app/",
+    imageUrl: "/manifest.png",
+    description:
+      "Manifest is a grid-based pinboard for note taking.",
+  },
 ];

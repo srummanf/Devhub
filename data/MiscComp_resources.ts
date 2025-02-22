@@ -50,6 +50,13 @@ export const MiscComp_resources = [
     description: "A UI component library for creating stunning, interactive web experiences.",
   },
   {
+    title: "LogoShaper",
+    href: "https://www.logoshaper.co/",
+    imageUrl: "/logoshaper.png",
+    description:
+      "Craft a stunning logo in seconds, no costs, no catch - pure creativity.",
+  },
+  {
     title: "Animated Icons by pqoqubbw",
     href: "https://icons.pqoqubbw.dev/",
     imageUrl: "https://github.com/pqoqubbw/icons/blob/main/app/og.png?raw=true",
@@ -84,5 +91,12 @@ export const MiscComp_resources = [
     href: "https://gitmoji.dev/",
     imageUrl: "/gitmoji.png",
     description: "An emoji guide for your commit messages.",
+  },
+  {
+    title: "Pitch",
+    href: "https://pitch.com/",
+    imageUrl: "/pitch.png",
+    description:
+      "Pitch is the complete pitching platform that enables any team to quickly create sleek presentations.",
   },
 ];
