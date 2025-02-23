@@ -206,7 +206,7 @@ export default function HeroGeometric({
           </motion.div>
         </div>
         <Terminal2>
-          <TypingAnimation>&gt; ✔ AYO?? Preflight checks going WILD.</TypingAnimation>
+          <TypingAnimation>&gt; ✔ AYO?? Pre-hackathon checks going WILD.</TypingAnimation>
 
           <AnimatedSpan delay={1500} className="text-green-500">
             <span>✔ NEXT.JS DETECTED. ENGAGING HACKER MODE 🦇.</span>

@@ -7,7 +7,7 @@ export const MiscComp_resources = [
   },
   {
     title: "Bolt",
-    href: "https://bolt.new/",
+    href: "https://bolt.new/?rid=wxg8xd",
     imageUrl: "/bolt.png",
     description: "Bolt is a tool for prototyping and building web applications with a focus on speed and simplicity.",
   },
@@ -104,5 +104,12 @@ export const MiscComp_resources = [
     imageUrl: "/pitch.png",
     description:
       "Pitch is the complete pitching platform that enables any team to quickly create sleek presentations.",
+  },
+  {
+    title: "ray.so",
+    href: "https://www.ray.so/",
+    imageUrl: "https://media.daily.dev/image/upload/f_auto,q_auto/v1/posts/cb9c8b6887ce776ea97569a3cdd3ad14",
+    description:
+      "Turn your code into beautiful images. Choose from a range of syntax themes, adjust the image size, and download your image.",
   },
 ];
