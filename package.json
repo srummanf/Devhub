@@ -22,6 +22,7 @@
     "motion": "^12.4.5",
     "next": "15.1.2",
     "ogl": "^1.0.11",
+    "pixel-retroui": "^1.0.67",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "tailwind-merge": "^2.6.0",
