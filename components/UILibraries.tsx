@@ -38,7 +38,7 @@ export function UILibraries() {
         bars, and more, helping you speed up development and maintain consistent
         design across your projects.
       </p>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 gap-x-6 gap-y-12">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 2xl:grid-cols-4 gap-6 gap-x-6 gap-y-12">
         {UILibraries_resources.map((site, index) => (
           <Card
             key={index}

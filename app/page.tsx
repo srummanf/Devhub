@@ -65,11 +65,6 @@ export default function Home() {
             description: "Useful tools for developers.",
           },
 
-          {
-            id: "TakeABreak",
-            title: "Take a Break",
-            description: "Fun & relaxing resources.",
-          },
         ]}
       />
       <Beginner_sComp />

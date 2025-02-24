@@ -41,7 +41,7 @@ export function AnimatedUILibraries() {
         create smooth transitions, animations, and engaging user experiences.
       </p>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 gap-x-6 gap-y-12">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 2xl:grid-cols-4 gap-6 gap-x-6 gap-y-12">
         {AnimatedUILibraries_resources.map((site, index) => (
           <Card
             key={index}

@@ -35,7 +35,7 @@ export function MiscComp() {
       Miscellaneous development resources offer a diverse set of tools to enhance productivity, streamline design, and simplify development workflows. From AI-powered coding assistants and UI component libraries to design assets, fonts, and documentation frameworks, these resources help developers build, prototype, and optimize their projects efficiently. Whether you're looking for code generators, animated icons, background patterns, or web design inspirations, this collection equips you with the right tools to bring your ideas to life. 
       </p>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 gap-x-6 gap-y-12">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 2xl:grid-cols-4 gap-6 gap-x-6 gap-y-12">
         {MiscComp_resources.map((site, index) => (
           <Card
             key={index}

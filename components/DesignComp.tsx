@@ -39,7 +39,7 @@ export function DesignComp() {
         will guide you in crafting user-centric experiences for your web
         projects.
       </p>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 gap-x-6 gap-y-12">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 2xl:grid-cols-4 gap-6 gap-x-6 gap-y-12">
         {DesignComp_resources.map((site, index) => (
           <Card
             key={index}

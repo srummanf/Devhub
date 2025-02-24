@@ -39,7 +39,7 @@ export function Web3Comp() {
         resources will help you create secure, scalable, and innovative Web3
         solutions.
       </p>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 gap-x-6 gap-y-12">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 2xl:grid-cols-4 gap-6 gap-x-6 gap-y-12">
         {Web3Comp_resources.map((site, index) => (
           <Card
             key={index}

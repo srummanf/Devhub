@@ -34,7 +34,7 @@ export function BackendComp() {
       <p className="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400 mb-8">
       Backend development frameworks and tools provide the foundation for building scalable, secure, and efficient server-side applications. Explore a collection of powerful resources that simplify server logic, streamline database management, and enhance authentication processes. These technologies help you develop robust applications with efficient data handling, seamless security, and optimized performance.
       </p>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6 gap-x-6 gap-y-12">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 2xl:grid-cols-4 gap-6 gap-x-6 gap-y-12">
         {backend_resources.map((site, index) => (
           <Card
             key={index}

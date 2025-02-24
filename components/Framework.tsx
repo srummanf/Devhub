@@ -37,7 +37,7 @@ export function Framework() {
       Web development frameworks provide structured tools and features to streamline the creation of dynamic and efficient applications.Explore a collection of powerful frameworks like React, Next.js, Vue, Svelte, Angular, and more, designed to simplify development, enhance performance, and maintain scalability. Whether you're exploring <FlipWords words={words} />these tools will guide you in creating efficient and visually stunning web experiences.
       </p>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 gap-x-6 gap-y-12">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 2xl:grid-cols-4 gap-6 gap-x-6 gap-y-12">
         {Framework_resources.map((site, index) => (
           <Card
             key={index}
