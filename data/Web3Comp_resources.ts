@@ -3,7 +3,7 @@ export const Web3Comp_resources = [
     title: "Solidity",
     href: "https://soliditylang.org/",
     imageUrl: "https://datascientest.com/en/files/2024/12/solidity-programming-language-datascientest-1024x512.webp",
-    description: "A statically-typed programming language for writing smart contracts on the Ethereum blockchain.",
+    description: "A statically typed programming language for writing smart contracts on the Ethereum blockchain.",
   },
   {
     title: "Hardhat",
