@@ -27,15 +27,9 @@ export function ScrollableCardSection({ items }: ScrollableCardSectionProps) {
           <div
             key={index}
             onClick={() => handleScroll(item.id)}
-            className="cursor-pointer text-white"
+            className="h-28 cursor-pointer text-white"
           >
             <InteractiveHoverButton>{item.title}</InteractiveHoverButton>
-            {/* <TiltCard
-              className="hover:bg-[#F9733E]"
-              title={item.title}
-            /> */}
-            {/* <h3 className="text-xl font-semibold">{item.title}</h3>
-            <p className="text-gray-300 mt-2">{item.description}</p> */}
           </div>
         ))}
       </div>

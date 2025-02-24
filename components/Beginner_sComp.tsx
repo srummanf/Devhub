@@ -23,7 +23,7 @@ export function Beginner_sComp() {
       id="Beginner_sComp"
       className="container mx-auto px-6 py-10 bg-[#030303]"
     >
-      <Bubble direction="right" className="font-minecraft">Hover Me</Bubble>
+      {/* <Bubble direction="right" className="font-minecraft">Hover Me</Bubble> */}
       <h1 className="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
         {/* <span className="text-transparent bg-clip-text bg-gradient-to-r to-[#b42f41] from-[#e1764f]">
           Getting Started with Hackathon -Beginner's Guide
@@ -43,14 +43,14 @@ export function Beginner_sComp() {
         </div>
       </h1>
       <p className="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400 mb-8">
-        Kickstart your hackathon journey with beginner-friendly resources and
-        tutorials designed to guide you in
+        Kickstart your hackathon journey with beginner-friendly resources,
+        tutorials and guides designed to help you in
         <FlipWords words={words} />.<br />
         At Hacknight'25, we believe in your potential to create something
         amazing. These resources will help you build a strong foundation and
         boost your confidence for your first hackathon.
       </p>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6 gap-x-6 gap-y-12">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 2xl:grid-cols-4 gap-6 gap-x-6 gap-y-12">
         {beginner_s_resources.map((site, index) => (
           <Card
             key={index}
