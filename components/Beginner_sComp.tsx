@@ -43,8 +43,7 @@ export function Beginner_sComp() {
         </div>
       </h1>
       <p className="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400 mb-8">
-        Kickstart your hackathon journey with beginner-friendly resources,
-        tutorials and guides designed to help you in
+      Kickstart your hackathon journey with beginner-friendly resources that will help you in
         <FlipWords words={words} />.<br />
         At Hacknight'25, we believe in your potential to create something
         amazing. These resources will help you build a strong foundation and
