@@ -9,7 +9,8 @@ export const backend_resources = [
   {
     title: "Netlify",
     href: "https://www.netlify.com/",
-    imageUrl: "https://static.agilitycms.com/copy-of-copy-of-blog-covers-2021-11-11t105359.633.jpg?format=auto",
+    imageUrl:
+      "https://static.agilitycms.com/copy-of-copy-of-blog-covers-2021-11-11t105359.633.jpg?format=auto",
     description:
       "Netlify is a cloud platform that helps developers deploy, host, and scale frontend web applications",
   },
@@ -31,8 +32,7 @@ export const backend_resources = [
   {
     title: "Appwrite",
     href: "https://appwrite.io/docs",
-    imageUrl:
-      "https://avatars.githubusercontent.com/u/25003669?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/25003669?v=4",
     description:
       "Build your entire backend within minutes and scale effortlessly using Appwrite's open-source platform.",
   },
@@ -53,6 +53,15 @@ export const backend_resources = [
       "Railway is a cloud platform that helps developer deploy full stack projects quickly without complex infrastructure setup.",
   },
   {
+    title: "Cloudinary",
+    href: "https://cloudinary.com/",
+    imageUrl:
+      "https://yt3.googleusercontent.com/wgfGCUUb1Rym8LAwvXuzHqfSpbByVs_11uhzj6Xw8rEFurIWxspBlIqU_2IRswKz947D3-yV=s900-c-k-c0x00ffffff-no-rj",
+    description:
+      "Cloudinary is a cloud-based image and video management service. It enables users to upload, store, manage, manipulate, and deliver images and video for websites and apps.",
+  },
+
+  {
     title: "ngrok",
     href: "https://ngrok.com/",
     imageUrl:
@@ -60,6 +69,7 @@ export const backend_resources = [
     description:
       "ngrok is the flexible API gateway for instant, secure connectivity anywhere—public or private.",
   },
+
   {
     title: "Clerk",
     href: "https://clerk.com/",

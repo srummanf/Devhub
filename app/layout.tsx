@@ -8,7 +8,7 @@ import MouseMoveEffect from "@/components/mousemoveEffect";
 
 
 export const metadata: Metadata = {
-  title: "KnightsDen | HK'25",
+  title: "Knight's Den | HK'25",
   description:
     "Discover top-tier resources, UI kits, and tools to elevate your development journey at Hacknight'25.",
   metadataBase: new URL("https://www.knightsden.xyz/"),

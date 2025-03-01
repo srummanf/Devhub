@@ -9,7 +9,13 @@ export const MiscComp_resources = [
     title: "Bolt",
     href: "https://bolt.new/?rid=wxg8xd",
     imageUrl: "/bolt.png",
-    description: "Bolt is a tool for prototyping and building web applications with a focus on speed and simplicity.",
+    description: "Bolt.new is an AI-powered web development agent that allows you to prompt, run, edit, and deploy full-stack applications directly from your browser—no local setup required",
+  },
+  {
+    title: "Lovable",
+    href: "https://lovable.dev/",
+    imageUrl: "https://refine.ams3.cdn.digitaloceanspaces.com/blog/2025-02-12-lovable/social.png",
+    description: "Lovable AI is an AI-powered app builder that helps users create web applications without needing to code",
   },
   {
     title: "Screenshot to Code",
@@ -111,5 +117,12 @@ export const MiscComp_resources = [
     imageUrl: "https://media.daily.dev/image/upload/f_auto,q_auto/v1/posts/cb9c8b6887ce776ea97569a3cdd3ad14",
     description:
       "Turn your code into beautiful images. Choose from a range of syntax themes, adjust the image size, and download your image.",
+  },
+  {
+    title: "Mechvibes",
+    href: "https://mechvibes.com/",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSRI_Np-YUTFlYZ6KTEgXqgfpvuPDMUzAobA&s",
+    description:
+      "A collection of mechanical keyboard sounds to help you focus and relax.",
   },
 ];
