@@ -1,5 +1,33 @@
 export const DesignComp_resources = [
   {
+    title: "Godly",
+    href: "https://godly.website/",
+    imageUrl: "https://godly.website/images/og.png",
+    description:
+      "A web design inspiration site that's focused on sites that just look good and have a good UI & UX instead of collecting the most out there canvas animation.",
+  },
+  {
+    title: "Landbook",
+    href: "https://land-book.com/",
+    imageUrl: "https://www.bookmarks.design/media/image/land-book.jpg",
+    description:
+      "A gallery featuring the best landing page design inspiration, freebies, and resources.",
+  },
+  {
+    title: "Rebrand",
+    href: "https://www.rebrand.gallery/",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBgKW400qz6nj_HkNH1lvxuzwINwd5MOHIug&s",
+    description:
+      "An online platform that curates and showcases a collection of high-quality rebranding projects from different companies, essentially providing a space for designers and creatives.",
+  },
+  {
+    title: "Landingfolio",
+    href: "https://www.landingfolio.com/",
+    imageUrl: "https://landingfolio.com/_nuxt/img/main.68a8f7f.png",
+    description:
+      "Landingfolio features the best landing page designs, templates, component and more on the web.",
+  },
+  {
     title: "Figma",
     href: "https://www.figma.com/",
     imageUrl: "https://cdn.prod.website-files.com/646cb2a160bc4ae7a0eb728e/65952e600e2bf2186a955102_figma.webp",
@@ -75,13 +103,6 @@ export const DesignComp_resources = [
     imageUrl: "/realtimecolors.png",
     description:
       "A tool to experiment with real-time color combinations and accessibility checks.",
-  },
-  {
-    title: "Dribbble",
-    href: "https://dribbble.com/",
-    imageUrl: "/dribbble.png",
-    description:
-      "A platform to showcase and discover creative design work from professionals worldwide.",
   },
   {
     title: "Laws of UX",

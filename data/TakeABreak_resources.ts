@@ -21,6 +21,12 @@ export const TakeABreak_resources = [
       title: "s l o w r o a d s",
       href: "https://slowroads.io/",
       imageUrl: "/slowroads.jpg",
+      description: "A fun free-to-play MMO flight sim without any loading screens and GBs of updates every time you wanna play.",
+    },
+    {
+      title: "Fly Pieter",
+      href: "https://fly.pieter.com/",
+      imageUrl: "https://pbs.twimg.com/media/GkvHP76XgAACucT.jpg:large",
       description: "Slow Roads is a casual driving game all about finding peace in a long, scenic journey.",
     },
     {
