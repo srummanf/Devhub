@@ -29,17 +29,17 @@ export const PinContainer = ({
   };
 
   return (
-    <Link
+    <a
       className={cn(
-        "relative group/pin z-50  cursor-pointer",
+        "relative group/pin z-50 cursor-pointer",
         containerClassName
       )}
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
       href={href || "/"}
-      passHref
+      target="_blank"
+      rel="noopener noreferrer"
     >
-      
       <div
         style={{
           perspective: "1000px",
@@ -51,14 +51,13 @@ export const PinContainer = ({
           style={{
             transform: transform,
           }}
-          className="absolute left-1/2 p-4 top-1/2  flex justify-start items-start  rounded-2xl  shadow-[0_8px_16px_rgb(0_0_0/0.4)] bg-black border border-white/[0.1] group-hover/pin:border-white/[0.2] transition duration-700 overflow-hidden"
+          className="absolute left-1/2 p-4 top-1/2 flex justify-start items-start rounded-2xl shadow-[0_8px_16px_rgb(0_0_0/0.4)] bg-black border border-white/[0.1] group-hover/pin:border-white/[0.2] transition duration-700 overflow-hidden"
         >
-          <div className={cn(" relative z-50 ", className)}>{children}</div>
+          <div className={cn("relative z-50", className)}>{children}</div>
         </div>
       </div>
       <PinPerspective title={title} href={href} />
-      
-    </Link>
+    </a>
   );
 };
 
