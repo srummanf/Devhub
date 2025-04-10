@@ -162,4 +162,10 @@ export const UILibraries_resources = [
     imageUrl: "/srcl.png",
     description: "SRCL is an open-source React component and style repository that helps you build web applications, desktop applications, and static websites with terminal aesthetics.",
   },
+  {
+    title: "Ghibli Inspired UI Library",
+    href: "https://matsu-theme.vercel.app/",
+    imageUrl: "https://i.ytimg.com/vi/EFWapiAb39U/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDi0Cb4eWVEINJQBP6JOoblxcr-sQ",
+    description: "Ghibli Studio inspired theme for shadcn/ui made by Matt Wierzbicki. It is inspired by the Ghibli Studio movies and features a unique and beautiful color palette and watercolor paper texture.",
+  },
 ];
