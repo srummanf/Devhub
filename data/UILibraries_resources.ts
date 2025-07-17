@@ -28,6 +28,13 @@ export const UILibraries_resources = [
       "A collection of beautifully designed UI components built with Tailwind CSS, perfect for beginners.",
   },
   {
+    title: "Untitled UI",
+    href: "https://www.untitledui.com/react/components",
+    imageUrl: "https://reactjsexample.com/content/images/2023/04/Code-2023-30-48-47.jpg",
+    description:
+      "This library is a collection of UI components based on the world's largest and most popular Figma UI kit and design system.",
+  },
+  {
     title: "Preline",
     href: "https://preline.co/index.html",
     imageUrl: "/preline.png",
