@@ -30,10 +30,22 @@ export const TakeABreak_resources = [
       description: "A fun free-to-play MMO flight sim without any loading screens and GBs of updates every time you wanna play.",
     },
     {
+      title: "Ransom Note Generator",
+      href: "https://ransom-note.vercel.app/",
+      imageUrl: "https://img.freepik.com/free-vector/paper-style-ransom-note-letter-collection_52683-65058.jpg",
+      description: "Enter your ransom note text. Clipping out your letters.",
+    },
+    {
       title: "Chicago Kare",
       href: "https://chicagokare.xyz/",
       imageUrl: "https://freight.cargo.site/w/1920/h/1256/q/75/i/P2061282849578399709854145970552/steve-jobs.png",
       description: "A Faithful Reproduction of the Bitmap Version of the Chicago Typeface Created by Susan Kare for Apple Computer in 1984.",
+    },
+    {
+      title: "Chloe Yan",
+      href: "https://www.chloeyan.me/ferry",
+      imageUrl: "https://pbs.twimg.com/ext_tw_video_thumb/1814758596250644480/pu/img/m7awS6ZsZX0fewHm.jpg",
+      description: "Leaves Loquat. shaders. Cattail shadows Cattail Grass · digital spaces. Buttercup shadows Buttercup Grass.",
     }
   ];
   
