@@ -30,10 +30,10 @@ export const TakeABreak_resources = [
       description: "A fun free-to-play MMO flight sim without any loading screens and GBs of updates every time you wanna play.",
     },
     {
-      title: "Ransom Note Generator",
-      href: "https://ransom-note.vercel.app/",
-      imageUrl: "https://img.freepik.com/free-vector/paper-style-ransom-note-letter-collection_52683-65058.jpg",
-      description: "Enter your ransom note text. Clipping out your letters.",
+      title: "Pillar Stack",
+      href: "https://github.com/by-huy/Pillarstack",
+      imageUrl: "https://ph-files.imgix.net/4a943c9f-3a05-406e-88b9-d702202746f6.png?auto=format&fit=crop",
+      description: "Another Resource Hub!!",
     },
     {
       title: "Chicago Kare",
