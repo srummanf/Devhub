@@ -75,6 +75,13 @@ export const MiscComp_resources = [
     description: "A beautiful library with SVG logos.",
   },
   {
+    title: "Pixelphent",
+    href: "https://github.com/yuxxeun/pixelphent",
+    imageUrl: "https://www.logoai.com/img/design/tools/Favicon%20Generator.jpg",
+    description:
+      "Generate high-quality favicons for your website in PNG and ICO formats. https://pixelphent.vercel.app/",
+  },
+  {
     title: "Fumadocs",
     href: "https://fumadocs.vercel.app/",
     imageUrl: "https://github.com/fuma-nama/fumadocs/raw/dev/apps/docs/public/banner.png",
