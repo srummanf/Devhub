@@ -28,6 +28,13 @@ export const UILibraries_resources = [
       "A collection of beautifully designed UI components built with Tailwind CSS, perfect for beginners.",
   },
   {
+    title: "Tailus UI",
+    href: "https://github.com/Tailus-UI/html.tailus.io",
+    imageUrl: "https://ui.tailus.io/og-cover.png",
+    description:
+      "Reusable Tailwind Component classes. Free up your time with pre-built classes that update site-wide automatically.",
+  },
+  {
     title: "Untitled UI",
     href: "https://www.untitledui.com/react/components",
     imageUrl: "https://reactjsexample.com/content/images/2023/04/Code-2023-30-48-47.jpg",
