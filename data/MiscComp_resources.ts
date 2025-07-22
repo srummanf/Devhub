@@ -18,6 +18,12 @@ export const MiscComp_resources = [
     description: "Lovable AI is an AI-powered app builder that helps users create web applications without needing to code",
   },
   {
+    title: "Commerce UI",
+    href: "https://github.com/stackzero-labs/ui",
+    imageUrl: "https://github.com/stackzero-labs/ui/blob/main/public/cover.jpeg?raw=true",
+    description: "Collection of components to build e-commerce sites and commerce apps. Built for React, Next.js, Tailwind CSS and shadcn/ui.",
+  },
+  {
     title: "Screenshot to Code",
     href: "https://screenshottocode.com/",
     imageUrl: "/stc.png",
