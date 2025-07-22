@@ -34,7 +34,13 @@ export const AnimatedUILibraries_resources = [
     title: "ReactBits",
     href: "https://www.reactbits.dev/",
     imageUrl: "/reactbits2.png",
-    description: "Hand-picked animated components collection for creative developers",
+    description: "Hand-picked animated components collection for creative developers.",
+  },
+   {
+    title: "Berlix UI",
+    href: "https://github.com/Reche13/berlix",
+    imageUrl: "https://camo.githubusercontent.com/98f56cdbd3894b8c88a573f25317ee8cb08f5b778883faf4106006cf03bf992d/68747470733a2f2f75692e7265636865736f617265732e636f6d2f6f672d696d6167652e706e67",
+    description: "Motion-first components for React, built with Tailwind CSS and Motion..",
   },
   {
     title: "Animation by IBleck",
