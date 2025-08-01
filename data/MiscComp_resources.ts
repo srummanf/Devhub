@@ -24,6 +24,12 @@ export const MiscComp_resources = [
     description: "Collection of components to build e-commerce sites and commerce apps. Built for React, Next.js, Tailwind CSS and shadcn/ui.",
   },
   {
+    title: "BaseHub UI",
+    href: "https://github.com/basehub-ai/launch-week-template",
+    imageUrl: "https://assets.basehub.com/9dbc0da9/ha54953u0vsc5mx9ooeq02nu/open-graph-v3.1-(2)-(1).jpg?width=3840&quality=100&format=auto",
+    description: "A modern, and customizable template for your next launch week. Features automatic countdown logic.",
+  },
+  {
     title: "Screenshot to Code",
     href: "https://screenshottocode.com/",
     imageUrl: "/stc.png",
