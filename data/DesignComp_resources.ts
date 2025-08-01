@@ -28,6 +28,13 @@ export const DesignComp_resources = [
       "Landingfolio features the best landing page designs, templates, component and more on the web.",
   },
   {
+    title: "Nicely Done",
+    href: "https://nicelydone.club/n/pages",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0Czaijc54W3gE72i9DZqZxWVJKTwSs2CdIw&s",
+    description:
+      "Saas screen examples inspiration library.",
+  },
+  {
     title: "Figma",
     href: "https://www.figma.com/",
     imageUrl: "https://cdn.prod.website-files.com/646cb2a160bc4ae7a0eb728e/65952e600e2bf2186a955102_figma.webp",
