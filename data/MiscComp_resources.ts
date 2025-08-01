@@ -138,4 +138,32 @@ export const MiscComp_resources = [
     description:
       "A collection of mechanical keyboard sounds to help you focus and relax.",
   },
+  {
+    title: "Text to ASCII Art Generator",
+    href: "https://patorjk.com/software/taag/#p=display&h=2&f=Bulbhead&t=Type%20Something%20",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5SYWXK6w2lLAjhCGJ9vaVgLAe5g0wMqnbEg&s",
+    description:
+      "Use free online ASCII Art tool to easily and quickly convert text to ASCII art.",
+  },
+  {
+    title: "Microlink SDK - URL Embedder",
+    href: "https://microlink.io/sdk",
+    imageUrl: "https://cdn.microlink.io/banner/sdk.jpeg",
+    description:
+      "Create beautiful link previews — Turn your content into embeddable rich media.",
+  },
+  {
+    title: "Microlink SDK - Splashy",
+    href: "https://splashy.microlink.io/",
+    imageUrl: "https://cdn.microlink.io/banner/sdk.jpeg",
+    description:
+      "Get predominant colors for any image.",
+  },
+  {
+    title: "Microlink SDK - Unavatar",
+    href: "https://github.com/microlinkhq/unavatar",
+    imageUrl: "https://cdn.microlink.io/banner/sdk.jpeg",
+    description:
+      "Get unified user avatar from social networks, including Instagram, SoundCloud, Telegram, Twitter, YouTube & more.",
+  },
 ];
