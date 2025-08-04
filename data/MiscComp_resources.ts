@@ -159,9 +159,9 @@ export const MiscComp_resources = [
       "Create beautiful link previews — Turn your content into embeddable rich media.",
   },
   {
-    title: "Microlink SDK - Splashy",
-    href: "https://splashy.microlink.io/",
-    imageUrl: "https://cdn.microlink.io/banner/sdk.jpeg",
+    title: "Image Palette",
+    href: "https://github.com/srummanf/image-palette",
+    imageUrl: "https://github.com/srummanf/image-palette/blob/main/public/images/og-image.png?raw=true",
     description:
       "Get predominant colors for any image.",
   },
