@@ -132,4 +132,32 @@ export const DesignComp_resources = [
     description:
       "Manifest is a grid-based pinboard for note taking.",
   },
+  {
+    title: "Shapes by Framer",
+    href: "https://shapes.framer.website/",
+    imageUrl: "/manifest.png",
+    description:
+      "Explore the collection of 120+ basic SVG shapes for your upcoming project.",
+  },
+  {
+    title: "WorldInDots",
+    href: "https://www.worldindots.com/",
+    imageUrl: "/manifest.png",
+    description:
+      "Create vector dotted maps with custom options and download them as SVG or PNG files.",
+  },
+  {
+    title: "Shape Holic",
+    href: "https://shapeoholic.live/",
+    imageUrl: "/manifest.png",
+    description:
+      "Elevate your designs with 140+ free, customizable SVG shapes.",
+  },
+  {
+    title: "SVG Doodles",
+    href: "https://svgdoodles.com/",
+    imageUrl: "/manifest.png",
+    description:
+      "A free collection of different editable SVGs to spice up your designs.",
+  },
 ];
